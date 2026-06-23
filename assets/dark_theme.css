@@ -1,0 +1,103 @@
+/* =====================================================================
+   Dark theme — "ink & signal"
+   Base: near-black navy ink, not pure black. Accents: amber + teal.
+   ===================================================================== */
+
+:root {
+    --c-bg: #0B0E14;
+    --c-surface: #12161F;
+    --c-surface-alt: #1A1F2C;
+    --c-surface-raised: #1E2433;
+    --c-border: #262C3B;
+    --c-border-soft: #1D222F;
+    --c-text: #E8EAF0;
+    --c-text-muted: #8B92A8;
+    --c-accent: #F4A93B;
+    --c-accent-2: #1FAEA5;
+}
+
+.stApp { background: var(--c-bg); color: var(--c-text); }
+
+section[data-testid="stSidebar"] {
+    background: #0E1119;
+    border-right: 1px solid var(--c-border-soft);
+}
+section[data-testid="stSidebar"] * { color: var(--c-text); }
+section[data-testid="stSidebar"] .stCaption, section[data-testid="stSidebar"] small { color: var(--c-text-muted) !important; }
+
+h1, h2, h3, h4, h5, p, span, label, div { color: var(--c-text); }
+
+.sa-card, .sa-kpi { background: var(--c-surface); border-color: var(--c-border); }
+.sa-kpi:hover, .sa-card:hover { border-color: var(--c-accent); }
+
+.sa-kpi-label { color: var(--c-text-muted); }
+.sa-kpi-value { color: #F5F6FA; }
+
+.sa-header { border-color: var(--c-border); }
+.sa-header .sa-eyebrow { color: var(--c-accent-2); }
+
+::-webkit-scrollbar-thumb { background: var(--c-border); }
+::-webkit-scrollbar-track { background: var(--c-bg); }
+
+/* Metrics */
+div[data-testid="stMetric"] { background: var(--c-surface); border-color: var(--c-border); }
+div[data-testid="stMetricLabel"] { color: var(--c-text-muted) !important; }
+div[data-testid="stMetricValue"] { color: var(--c-text) !important; }
+
+/* Buttons */
+.stButton button, .stDownloadButton button {
+    background: var(--c-surface-raised) !important;
+    color: var(--c-text) !important;
+    border: 1px solid var(--c-border) !important;
+}
+.stButton button:hover, .stDownloadButton button:hover {
+    border-color: var(--c-accent) !important;
+    color: var(--c-accent) !important;
+}
+.stButton button[kind="primary"], .stDownloadButton button[kind="primary"] {
+    background: var(--c-accent) !important;
+    color: #14110A !important;
+    border: 1px solid var(--c-accent) !important;
+}
+.stButton button[kind="primary"]:hover { filter: brightness(1.08); color: #14110A !important; }
+
+/* Tabs */
+.stTabs [data-baseweb="tab"] {
+    background: var(--c-surface);
+    color: var(--c-text-muted);
+}
+.stTabs [aria-selected="true"] {
+    background: var(--c-surface-raised) !important;
+    color: var(--c-accent) !important;
+    box-shadow: inset 0 -2px 0 var(--c-accent);
+}
+
+/* Slider */
+div[data-baseweb="slider"] [role="slider"] { background: var(--c-accent) !important; }
+div[data-baseweb="slider"] > div > div { background: var(--c-accent) !important; }
+div[data-baseweb="slider"] > div { background: var(--c-border) !important; }
+
+/* Multiselect tags */
+span[data-baseweb="tag"] { background: var(--c-accent-2) !important; color: #06201F !important; }
+
+/* Selects / inputs */
+div[data-baseweb="select"] > div, div[data-baseweb="base-input"], .stTextArea textarea {
+    background: var(--c-surface) !important;
+    border-color: var(--c-border) !important;
+    color: var(--c-text) !important;
+}
+
+/* Dataframe */
+div[data-testid="stDataFrame"] { border-color: var(--c-border); }
+
+/* Expander */
+div[data-testid="stExpander"] { background: var(--c-surface); border-color: var(--c-border) !important; }
+
+/* File uploader */
+section[data-testid="stFileUploaderDropzone"] {
+    background: var(--c-surface) !important;
+    border-color: var(--c-border) !important;
+}
+
+/* Alerts */
+div[data-testid="stAlert"] { border-radius: 12px; }

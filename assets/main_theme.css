@@ -1,0 +1,270 @@
+/* =====================================================================
+   SkillScope — Single Professional Theme (warm off-white)
+   Fonts  : Inter (body/UI) · JetBrains Mono (all numbers/data)
+   Sidebar: ALWAYS VISIBLE — collapse button hidden via CSS
+   ===================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+    --bg:           #F8F7F4;
+    --surface:      #FFFFFF;
+    --surface-alt:  #F1EEE8;
+    --border:       #E5E2DC;
+    --text:         #2D3748;
+    --text-muted:   #6B7280;
+    --text-faint:   #9CA3AF;
+    --accent:       #4A7FC0;
+    --accent-soft:  #4A7FC018;
+    --green:        #50A37F;
+    --orange:       #D97B4F;
+    --red:          #E84C6A;
+    --font-body:    'Inter', -apple-system, sans-serif;
+    --font-mono:    'JetBrains Mono', monospace;
+    --radius:       12px;
+    --radius-sm:    8px;
+    --shadow:       0 1px 3px rgba(45,55,72,0.08), 0 1px 2px rgba(45,55,72,0.04);
+    --shadow-md:    0 4px 12px rgba(45,55,72,0.10);
+    --transition:   150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+/* ── Global reset ──────────────────────────────────────────────────────── */
+html, body, [class*="css"] { font-family: var(--font-body); }
+#MainMenu, footer { visibility: hidden; }
+header[data-testid="stHeader"] { background: transparent !important; }
+.block-container { padding-top: 1.2rem; padding-bottom: 3rem; max-width: 1320px; }
+::-webkit-scrollbar { width: 7px; height: 7px; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 6px; }
+::-webkit-scrollbar-track { background: var(--surface-alt); }
+
+/* ══════════════════════════════════════════════════════════════════════
+   PERMANENT SIDEBAR — ALWAYS VISIBLE, CANNOT BE COLLAPSED
+   ══════════════════════════════════════════════════════════════════════
+
+   FIX: Three-pronged approach:
+   1. Hide the collapse/expand toggle button entirely (CSS)
+   2. Force the sidebar to always display as a block (CSS)
+   3. initial_sidebar_state="expanded" in set_page_config (Python side)
+
+   The [aria-expanded="false"] rule is the critical one — it overrides
+   Streamlit's own JS that sets display:none when the sidebar collapses.
+   ══════════════════════════════════════════════════════════════════════ */
+
+/* 1. Hide the collapse/expand toggle button */
+button[data-testid="collapsedControl"],
+button[kind="header"],
+[data-testid="stSidebarCollapseButton"] {
+    display: none !important;
+}
+
+/* 2. Force sidebar to remain visible even when Streamlit marks it collapsed */
+section[data-testid="stSidebar"][aria-expanded="false"] {
+    display:     block   !important;
+    visibility:  visible !important;
+    width:       240px   !important;
+    min-width:   240px   !important;
+    max-width:   240px   !important;
+    margin-left: 0       !important;
+    transform:   none    !important;
+    opacity:     1       !important;
+}
+
+/* 3. Consistent sidebar dimensions at all times */
+section[data-testid="stSidebar"] {
+    background:  var(--surface)  !important;
+    border-right: 1px solid var(--border) !important;
+    width:       240px   !important;
+    min-width:   240px   !important;
+    max-width:   240px   !important;
+    position:    fixed   !important;
+    top:         0       !important;
+    left:        0       !important;
+    height:      100vh   !important;
+    overflow-y:  auto    !important;
+    z-index:     999     !important;
+}
+section[data-testid="stSidebar"] > div {
+    padding: 1rem 0.9rem !important;
+}
+
+/* 4. Push main content right of the fixed sidebar */
+[data-testid="stAppViewContainer"] [data-testid="stMain"] {
+    padding-left: 252px !important;
+}
+
+.main .block-container {
+    margin-left: 0 !important;
+    max-width: calc(100vw - 280px) !important;
+}
+
+/* Sidebar labels and text */
+section[data-testid="stSidebar"] .stSelectbox   > label,
+section[data-testid="stSidebar"] .stMultiSelect > label,
+section[data-testid="stSidebar"] .stSlider      > label,
+section[data-testid="stSidebar"] .stTextInput   > label {
+    font-size:      0.78rem !important;
+    font-weight:    600     !important;
+    color:          var(--text-muted) !important;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+section[data-testid="stSidebar"] .stCaption { color: var(--text-faint) !important; }
+section[data-testid="stSidebar"] hr { border-color: var(--border) !important; margin: 0.6rem 0; }
+
+/* Nav links */
+section[data-testid="stSidebar"] a,
+section[data-testid="stSidebar"] [data-testid="stPageLink"] {
+    color:       var(--text) !important;
+    font-weight: 500         !important;
+    font-size:   0.88rem     !important;
+    border-radius: var(--radius-sm) !important;
+    padding:     0.4rem 0.6rem !important;
+    transition:  background var(--transition) !important;
+}
+section[data-testid="stSidebar"] a:hover {
+    background: var(--surface-alt) !important;
+}
+
+/* ── Page header band ──────────────────────────────────────────────────── */
+.sk-header {
+    background:    var(--surface);
+    border:        1px solid var(--border);
+    border-radius: var(--radius);
+    padding:       1.1rem 1.4rem;
+    margin-bottom: 1.2rem;
+    box-shadow:    var(--shadow);
+    display:       flex;
+    align-items:   center;
+    gap:           1rem;
+}
+.sk-header-icon {
+    font-size:       2rem;
+    width: 52px; height: 52px;
+    background:      var(--accent-soft);
+    border-radius:   var(--radius-sm);
+    display:         flex;
+    align-items:     center;
+    justify-content: center;
+    flex-shrink:     0;
+}
+.sk-header-label {
+    font-size:      0.7rem;
+    font-weight:    600;
+    color:          var(--accent);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom:  0.15rem;
+    font-family:    var(--font-mono);
+}
+.sk-header h1 {
+    margin:      0 0 0.2rem 0;
+    font-size:   1.45rem;
+    font-weight: 700;
+    color:       var(--text);
+    line-height: 1.1;
+}
+.sk-header p { margin: 0; font-size: 0.88rem; color: var(--text-muted); }
+
+/* ── KPI / metric cards ────────────────────────────────────────────────── */
+.sk-kpi {
+    background:    var(--surface);
+    border:        1px solid var(--border);
+    border-radius: var(--radius);
+    padding:       1.1rem 1.2rem 0.9rem;
+    box-shadow:    var(--shadow);
+    position:      relative;
+    overflow:      hidden;
+    transition:    box-shadow var(--transition), transform var(--transition);
+}
+.sk-kpi:hover { box-shadow: var(--shadow-md); transform: translateY(-1px); }
+.sk-kpi::before {
+    content:      '';
+    position:     absolute;
+    top: 0; left: 0; right: 0;
+    height:        3px;
+    background:    var(--accent);
+    border-radius: var(--radius) var(--radius) 0 0;
+}
+.sk-kpi .sk-kpi-icon   { position:absolute; right:1rem; top:0.9rem; font-size:1.2rem; opacity:0.2; }
+.sk-kpi .sk-kpi-label  { font-family:var(--font-mono); font-size:0.68rem; font-weight:500; text-transform:uppercase; letter-spacing:0.1em; color:var(--text-muted); margin-bottom:0.45rem; }
+.sk-kpi .sk-kpi-value  { font-family:var(--font-mono); font-size:1.6rem; font-weight:700; color:var(--text); line-height:1; margin-bottom:0.35rem; font-variant-numeric:tabular-nums; }
+.sk-kpi .sk-kpi-sub    { font-size:0.76rem; color:var(--text-muted); }
+
+/* ── Chart cards ───────────────────────────────────────────────────────── */
+.sk-card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:1.1rem 1.25rem 1rem; box-shadow:var(--shadow); margin-bottom:0.9rem; }
+.sk-card-title { font-size:0.9rem; font-weight:700; color:var(--text); margin-bottom:0.2rem; display:flex; align-items:center; gap:0.4rem; }
+.sk-card-sub   { font-size:0.78rem; color:var(--text-muted); margin-bottom:0.6rem; }
+
+/* ── Data source status banners ────────────────────────────────────────── */
+.sk-status { display:flex; align-items:center; gap:0.5rem; font-size:0.76rem; font-family:var(--font-mono); padding:0.4rem 0.7rem; border-radius:var(--radius-sm); margin-bottom:0.5rem; font-weight:500; }
+.sk-status-api    { background:#D1FAE5; color:#065F46; border:1px solid #A7F3D0; }
+.sk-status-sample { background:#FEF3C7; color:#92400E; border:1px solid #FDE68A; }
+.sk-status-upload { background:#EDE9FE; color:#4C1D95; border:1px solid #DDD6FE; }
+.sk-status-error  { background:#FEE2E2; color:#991B1B; border:1px solid #FECACA; }
+
+/* ── Badges ────────────────────────────────────────────────────────────── */
+.sk-badge        { display:inline-block; font-family:var(--font-mono); padding:0.2rem 0.6rem; border-radius:999px; font-size:0.7rem; font-weight:500; margin:0.15rem; }
+.sk-badge-blue   { background:#DBEAFE; color:#1E40AF; }
+.sk-badge-green  { background:#D1FAE5; color:#065F46; }
+.sk-badge-amber  { background:#FEF3C7; color:#92400E; }
+.sk-badge-gray   { background:var(--surface-alt); color:var(--text-muted); border:1px solid var(--border); }
+.sk-badge-red    { background:#FEE2E2; color:#991B1B; }
+
+/* ── Buttons ───────────────────────────────────────────────────────────── */
+.stButton button {
+    border-radius: var(--radius-sm) !important;
+    font-family:   var(--font-body) !important;
+    font-weight:   600              !important;
+    font-size:     0.86rem          !important;
+    transition:    all var(--transition) !important;
+}
+.stButton button:hover { transform: translateY(-1px); }
+button[kind="primary"] { background:var(--accent) !important; border-color:var(--accent) !important; color:white !important; }
+
+/* ── Tabs ──────────────────────────────────────────────────────────────── */
+.stTabs [data-baseweb="tab-list"] { gap:4px; border-bottom:1px solid var(--border); }
+.stTabs [data-baseweb="tab"]       { border-radius:var(--radius-sm) var(--radius-sm) 0 0; font-family:var(--font-body); font-weight:600; font-size:0.87rem; color:var(--text-muted) !important; background:var(--surface-alt) !important; padding:0.5rem 1rem !important; }
+.stTabs [aria-selected="true"]     { background:var(--surface) !important; color:var(--accent) !important; box-shadow:inset 0 -2px 0 var(--accent); }
+
+/* ── Native Streamlit metrics ──────────────────────────────────────────── */
+div[data-testid="stMetric"]      { background:var(--surface) !important; border:1px solid var(--border) !important; border-radius:var(--radius) !important; padding:0.8rem 1rem !important; box-shadow:var(--shadow) !important; }
+div[data-testid="stMetricValue"] { font-family:var(--font-mono) !important; color:var(--text)       !important; }
+div[data-testid="stMetricLabel"] { font-family:var(--font-mono) !important; color:var(--text-muted) !important; font-size:0.7rem !important; text-transform:uppercase; letter-spacing:0.08em; }
+
+/* ── Inputs ────────────────────────────────────────────────────────────── */
+div[data-baseweb="select"] > div,
+div[data-baseweb="base-input"],
+.stTextInput input,
+.stTextArea textarea {
+    background:    var(--surface)    !important;
+    border-color:  var(--border)     !important;
+    border-radius: var(--radius-sm)  !important;
+    font-family:   var(--font-body)  !important;
+    font-size:     0.88rem           !important;
+    color:         var(--text)       !important;
+}
+span[data-baseweb="tag"] { background:var(--accent-soft) !important; color:var(--accent) !important; border:1px solid #BFDBFE !important; border-radius:6px !important; font-family:var(--font-mono) !important; font-size:0.75rem !important; }
+
+/* ── Slider ────────────────────────────────────────────────────────────── */
+div[data-baseweb="slider"] > div      { background:var(--border) !important; }
+div[data-baseweb="slider"] > div > div { background:var(--accent) !important; }
+div[data-baseweb="slider"] [role="slider"] { background:var(--accent) !important; border-color:var(--accent) !important; }
+
+/* ── DataFrames ────────────────────────────────────────────────────────── */
+div[data-testid="stDataFrame"]   { border-radius:var(--radius) !important; border:1px solid var(--border) !important; overflow:hidden; box-shadow:var(--shadow) !important; }
+div[data-testid="stDataFrame"] * { font-family:var(--font-mono) !important; font-size:0.82rem !important; }
+
+/* ── File uploader ─────────────────────────────────────────────────────── */
+section[data-testid="stFileUploaderDropzone"] { background:var(--surface-alt) !important; border:2px dashed var(--border) !important; border-radius:var(--radius) !important; transition:border-color var(--transition) !important; }
+section[data-testid="stFileUploaderDropzone"]:hover { border-color:var(--accent) !important; }
+
+/* ── Expanders / alerts ────────────────────────────────────────────────── */
+div[data-testid="stExpander"] { background:var(--surface) !important; border:1px solid var(--border) !important; border-radius:var(--radius) !important; }
+div[data-testid="stAlert"]    { border-radius:var(--radius-sm) !important; }
+
+/* ── Footer ────────────────────────────────────────────────────────────── */
+.sk-footer { text-align:center; font-family:var(--font-mono); font-size:0.72rem; color:var(--text-faint); padding:2rem 0 0.5rem; margin-top:1rem; border-top:1px solid var(--border); }
+
+/* ── Skeleton loader ───────────────────────────────────────────────────── */
+@keyframes sk-shimmer { from{background-position:-400px 0} to{background-position:400px 0} }
+.sk-skeleton { border-radius:var(--radius); height:80px; background:linear-gradient(90deg,var(--surface-alt) 25%,#E9E6DF 50%,var(--surface-alt) 75%); background-size:800px 100%; animation:sk-shimmer 1.4s infinite linear; margin-bottom:0.6rem; }

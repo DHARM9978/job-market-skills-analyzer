@@ -1,0 +1,1001 @@
+Job_Title,Company,Location,Salary,Skills,Experience,Job_Type,Industry
+DevOps Engineer,HCL,Delhi,604902,"Docker, Kubernetes, AWS, Jenkins",1,Full-Time,Technology
+Software Engineer,HCL,Hyderabad,3338283,"Python, Django, PostgreSQL",1,Full-Time,IT
+Data Analyst,Accenture,Bangalore,1417034,"Python, SQL, Tableau",1,Full-Time,Technology
+BI Developer,Accenture,Kolkata,2259593,"Power BI, SQL, DAX",8,Full-Time,SaaS
+Cloud Architect,HCL,Noida,1169659,"AWS, GCP, Kubernetes",0,Full-Time,E-Commerce
+Software Engineer,Infosys,Hyderabad,1911779,"Python, Django, PostgreSQL",3,Full-Time,IT
+Data Engineer,Cognizant,Bangalore,3032210,"AWS, Spark, ETL, SQL",5,Full-Time,FinTech
+Data Scientist,IBM,Delhi,830511,"Python, TensorFlow, Deep Learning",6,Full-Time,FinTech
+Frontend Developer,Capgemini,Mumbai,692201,"React, TypeScript, CSS",1,Full-Time,IT
+Cloud Architect,Google,Delhi,923630,"AWS, GCP, Kubernetes",3,Full-Time,Security
+Cloud Architect,Amazon,Chennai,1182220,"AWS, GCP, Kubernetes",5,Full-Time,Security
+Backend Developer,Capgemini,Pune,3054880,"Node.js, MongoDB, Express",1,Full-Time,Technology
+AI Engineer,Flipkart,Mumbai,1632243,"Python, TensorFlow, Deep Learning",6,Full-Time,SaaS
+Cyber Security Analyst,Paytm,Bangalore,1460697,"Network Security, SIEM, Python",0,Full-Time,Consulting
+Backend Developer,Flipkart,Chennai,1384926,"Node.js, MongoDB, Express",1,Full-Time,Security
+AI Engineer,Microsoft,Pune,3196316,"Python, TensorFlow, Deep Learning",6,Full-Time,Technology
+Frontend Developer,Cognizant,Noida,2760634,"React, TypeScript, CSS",8,Full-Time,E-Commerce
+Frontend Developer,Microsoft,Hyderabad,2637108,"JavaScript, React, HTML, CSS",2,Full-Time,SaaS
+Data Scientist,Wipro,Noida,3131699,"Python, Machine Learning, SQL, Pandas",2,Full-Time,Consulting
+Business Analyst,Cognizant,Bangalore,2719266,"Excel, SQL, Power BI, Tableau",7,Full-Time,Security
+Product Analyst,Zoho,Chennai,1619145,"SQL, Python, Tableau",8,Full-Time,E-Commerce
+Business Analyst,TCS,Delhi,2403055,"Excel, SQL, Power BI, Tableau",2,Full-Time,FinTech
+Product Analyst,Cognizant,Mumbai,3122699,"SQL, Python, Tableau",1,Full-Time,E-Commerce
+Cyber Security Analyst,Zoho,Bangalore,2762319,"Network Security, SIEM, Python",2,Full-Time,Consulting
+Data Analyst,Flipkart,Delhi,2022451,"Python, SQL, Power BI, Excel",1,Full-Time,IT
+Frontend Developer,HCL,Kolkata,859256,"JavaScript, React, HTML, CSS",1,Full-Time,SaaS
+Cloud Engineer,Capgemini,Kolkata,1038512,"AWS, Docker, Kubernetes, Linux",2,Full-Time,E-Commerce
+Cloud Engineer,Flipkart,Mumbai,1388346,"AWS, Docker, Kubernetes, Linux",6,Full-Time,Consulting
+DevOps Engineer,Flipkart,Kolkata,2337524,"Docker, Kubernetes, AWS, Jenkins",5,Full-Time,Technology
+Frontend Developer,TCS,Mumbai,1918033,"JavaScript, React, HTML, CSS",1,Full-Time,IT
+Data Scientist,Infosys,Bangalore,1460251,"Python, TensorFlow, Deep Learning",0,Full-Time,IT
+Cloud Engineer,Capgemini,Kolkata,1668018,"AWS, Docker, Kubernetes, Linux",3,Full-Time,FinTech
+Software Engineer,Zoho,Kolkata,1519204,"Python, Django, PostgreSQL",7,Full-Time,Technology
+Data Scientist,Google,Chennai,3263973,"Python, TensorFlow, Deep Learning",1,Full-Time,Consulting
+AI Engineer,Capgemini,Hyderabad,3324295,"Python, TensorFlow, Deep Learning",0,Full-Time,Consulting
+BI Developer,Accenture,Mumbai,958307,"Power BI, SQL, DAX",5,Full-Time,FinTech
+AI Engineer,Wipro,Delhi,2269499,"Python, TensorFlow, Deep Learning",2,Full-Time,Technology
+Cloud Architect,Zoho,Hyderabad,2358625,"AWS, GCP, Kubernetes",1,Full-Time,Security
+Cloud Engineer,Flipkart,Mumbai,891172,"AWS, Docker, Kubernetes, Linux",0,Full-Time,Consulting
+AI Engineer,Paytm,Noida,1396521,"Python, TensorFlow, Deep Learning",7,Full-Time,Technology
+Business Analyst,Cognizant,Kolkata,2137547,"Excel, SQL, Power BI, Tableau",0,Full-Time,Consulting
+BI Developer,HCL,Kolkata,3276089,"Power BI, SQL, DAX",8,Full-Time,Technology
+Backend Developer,Oracle,Bangalore,745296,"Python, Django, PostgreSQL",3,Full-Time,IT
+Data Analyst,Flipkart,Pune,2609107,"Python, SQL, Power BI, Excel",7,Full-Time,FinTech
+Data Scientist,Oracle,Hyderabad,787399,"Python, Machine Learning, SQL, Pandas",2,Full-Time,Consulting
+Data Scientist,Oracle,Bangalore,2928162,"Python, Machine Learning, SQL, Pandas",3,Full-Time,Consulting
+DevOps Engineer,Flipkart,Delhi,1826951,"Docker, Kubernetes, AWS, Jenkins",8,Full-Time,Security
+BI Developer,Cognizant,Noida,1501121,"Power BI, SQL, DAX",5,Full-Time,Security
+DevOps Engineer,Amazon,Hyderabad,2417738,"Docker, Kubernetes, AWS, Jenkins",4,Full-Time,Consulting
+ML Engineer,IBM,Mumbai,807277,"Python, PyTorch, Machine Learning",1,Full-Time,Technology
+Product Analyst,Flipkart,Mumbai,788531,"SQL, Python, Tableau",5,Full-Time,E-Commerce
+Software Engineer,HCL,Delhi,2778421,"Java, Spring Boot, MySQL",7,Full-Time,Security
+Cloud Architect,Flipkart,Hyderabad,1755685,"AWS, GCP, Kubernetes",8,Full-Time,E-Commerce
+Data Scientist,Wipro,Delhi,2820388,"Python, TensorFlow, Deep Learning",1,Full-Time,FinTech
+Frontend Developer,Capgemini,Delhi,1353949,"React, TypeScript, CSS",5,Full-Time,E-Commerce
+Product Analyst,Capgemini,Noida,887127,"SQL, Python, Tableau",0,Full-Time,IT
+Data Analyst,Capgemini,Delhi,1048697,"Python, SQL, Power BI, Excel",5,Full-Time,Security
+AI Engineer,Google,Bangalore,3459783,"Python, TensorFlow, Deep Learning",8,Full-Time,IT
+Product Analyst,TCS,Chennai,2788371,"SQL, Python, Tableau",2,Full-Time,Consulting
+Software Engineer,Amazon,Bangalore,1792929,"Python, Django, PostgreSQL",0,Full-Time,Technology
+DevOps Engineer,Infosys,Chennai,3297321,"Docker, Kubernetes, AWS, Jenkins",3,Full-Time,FinTech
+BI Developer,Paytm,Pune,1492948,"Power BI, SQL, DAX",2,Full-Time,Consulting
+Data Analyst,Zoho,Noida,1893286,"Python, SQL, Tableau",2,Full-Time,SaaS
+BI Developer,Wipro,Hyderabad,1619064,"Power BI, SQL, DAX",3,Full-Time,SaaS
+Data Analyst,Accenture,Kolkata,1432954,"SQL, Tableau, Excel",7,Full-Time,E-Commerce
+Cloud Architect,TCS,Mumbai,1435009,"AWS, GCP, Kubernetes",3,Full-Time,E-Commerce
+Backend Developer,Amazon,Noida,1670735,"Python, Django, PostgreSQL",1,Full-Time,IT
+Data Scientist,Oracle,Delhi,1248967,"Python, Machine Learning, SQL, Pandas",4,Full-Time,IT
+ML Engineer,HCL,Chennai,1949916,"Python, PyTorch, Machine Learning",6,Full-Time,FinTech
+Cloud Engineer,Flipkart,Mumbai,2115626,"AWS, Docker, Kubernetes, Linux",1,Full-Time,IT
+BI Developer,IBM,Mumbai,507093,"Power BI, SQL, DAX",6,Full-Time,Consulting
+Data Scientist,Amazon,Hyderabad,3113703,"Python, TensorFlow, Deep Learning",5,Full-Time,FinTech
+Backend Developer,Google,Delhi,1868110,"Node.js, MongoDB, Express",6,Full-Time,Technology
+Business Analyst,HCL,Pune,3340877,"Excel, SQL, Power BI, Tableau",6,Full-Time,Consulting
+Cloud Engineer,Cognizant,Mumbai,1774543,"AWS, Docker, Kubernetes, Linux",0,Full-Time,SaaS
+ML Engineer,Microsoft,Kolkata,2450301,"Python, PyTorch, Machine Learning",5,Full-Time,FinTech
+AI Engineer,Infosys,Delhi,3263420,"Python, TensorFlow, Deep Learning",2,Full-Time,IT
+Cloud Architect,Cognizant,Mumbai,3321909,"AWS, GCP, Kubernetes",3,Full-Time,Technology
+Data Analyst,Microsoft,Hyderabad,1526944,"SQL, Tableau, Excel",0,Full-Time,Consulting
+Product Analyst,Google,Kolkata,3420721,"SQL, Python, Tableau",3,Full-Time,Technology
+Software Engineer,Zoho,Noida,947059,"Java, Spring Boot, MySQL",0,Full-Time,Technology
+Cyber Security Analyst,TCS,Mumbai,2448463,"Network Security, SIEM, Python",8,Full-Time,Consulting
+Software Engineer,IBM,Chennai,3300023,"Python, Django, PostgreSQL",7,Full-Time,FinTech
+Cloud Architect,Paytm,Kolkata,2289880,"AWS, GCP, Kubernetes",8,Full-Time,Security
+Cloud Architect,Cognizant,Mumbai,2387729,"AWS, GCP, Kubernetes",7,Full-Time,SaaS
+Cyber Security Analyst,Capgemini,Mumbai,2532547,"Network Security, SIEM, Python",8,Full-Time,Consulting
+Data Scientist,Cognizant,Chennai,1483537,"Python, TensorFlow, Deep Learning",4,Full-Time,FinTech
+Data Scientist,Accenture,Noida,1132629,"Python, Machine Learning, SQL, Pandas",2,Full-Time,Security
+Frontend Developer,Google,Chennai,2240082,"React, TypeScript, CSS",1,Full-Time,Consulting
+Data Analyst,Google,Bangalore,2262209,"Python, SQL, Tableau",3,Full-Time,Consulting
+AI Engineer,Cognizant,Noida,1975383,"Python, TensorFlow, Deep Learning",0,Full-Time,FinTech
+BI Developer,Flipkart,Mumbai,3030224,"Power BI, SQL, DAX",8,Full-Time,Technology
+Backend Developer,TCS,Noida,2536930,"Python, Django, PostgreSQL",6,Full-Time,Security
+DevOps Engineer,Paytm,Kolkata,1192247,"Docker, Kubernetes, AWS, Jenkins",6,Full-Time,FinTech
+Cloud Engineer,Oracle,Bangalore,2152640,"AWS, Docker, Kubernetes, Linux",0,Full-Time,Security
+Business Analyst,Wipro,Bangalore,2436503,"Excel, SQL, Power BI, Tableau",2,Full-Time,Consulting
+Data Engineer,Amazon,Chennai,2407147,"AWS, Spark, ETL, SQL",3,Full-Time,E-Commerce
+Cyber Security Analyst,Paytm,Hyderabad,1558103,"Network Security, SIEM, Python",6,Full-Time,IT
+BI Developer,Amazon,Mumbai,718462,"Power BI, SQL, DAX",8,Full-Time,SaaS
+DevOps Engineer,Accenture,Mumbai,630149,"Docker, Kubernetes, AWS, Jenkins",0,Full-Time,FinTech
+Software Engineer,Microsoft,Hyderabad,1029409,"Java, Spring Boot, MySQL",3,Full-Time,Consulting
+BI Developer,Wipro,Hyderabad,2047258,"Power BI, SQL, DAX",4,Full-Time,E-Commerce
+Data Scientist,Oracle,Noida,1808443,"Python, TensorFlow, Deep Learning",0,Full-Time,Security
+Frontend Developer,HCL,Mumbai,2983438,"JavaScript, React, HTML, CSS",1,Full-Time,Security
+Cyber Security Analyst,Oracle,Hyderabad,3369990,"Network Security, SIEM, Python",4,Full-Time,E-Commerce
+Cloud Engineer,Amazon,Hyderabad,3274621,"AWS, Docker, Kubernetes, Linux",6,Full-Time,IT
+Cloud Architect,Infosys,Noida,2556054,"AWS, GCP, Kubernetes",6,Full-Time,Security
+Product Analyst,Wipro,Noida,3466667,"SQL, Python, Tableau",7,Full-Time,Security
+Cloud Engineer,Zoho,Kolkata,3083323,"AWS, Docker, Kubernetes, Linux",4,Full-Time,Consulting
+Cloud Architect,Paytm,Mumbai,1851843,"AWS, GCP, Kubernetes",4,Full-Time,E-Commerce
+Product Analyst,Zoho,Kolkata,1522837,"SQL, Python, Tableau",7,Full-Time,E-Commerce
+Data Analyst,Wipro,Kolkata,1863208,"Python, SQL, Power BI, Excel",7,Full-Time,E-Commerce
+Cyber Security Analyst,Cognizant,Delhi,1927484,"Network Security, SIEM, Python",4,Full-Time,FinTech
+Frontend Developer,HCL,Noida,1512320,"React, TypeScript, CSS",1,Full-Time,FinTech
+Cyber Security Analyst,Microsoft,Kolkata,3396625,"Network Security, SIEM, Python",3,Full-Time,SaaS
+Data Analyst,Accenture,Noida,1734113,"Python, SQL, Tableau",1,Full-Time,Technology
+Backend Developer,IBM,Chennai,2484998,"Python, Django, PostgreSQL",5,Full-Time,Security
+Cloud Engineer,HCL,Kolkata,1975600,"AWS, Docker, Kubernetes, Linux",5,Full-Time,E-Commerce
+Backend Developer,HCL,Mumbai,1006067,"Python, Django, PostgreSQL",3,Full-Time,IT
+BI Developer,Wipro,Mumbai,3394755,"Power BI, SQL, DAX",8,Full-Time,Security
+AI Engineer,Zoho,Delhi,2972906,"Python, TensorFlow, Deep Learning",4,Full-Time,SaaS
+Frontend Developer,Amazon,Pune,1454133,"React, TypeScript, CSS",4,Full-Time,IT
+BI Developer,Cognizant,Bangalore,1030927,"Power BI, SQL, DAX",8,Full-Time,FinTech
+Backend Developer,Paytm,Kolkata,3175419,"Node.js, MongoDB, Express",2,Full-Time,SaaS
+Data Analyst,Microsoft,Kolkata,2468793,"SQL, Tableau, Excel",4,Full-Time,Technology
+Data Analyst,Infosys,Hyderabad,2503741,"SQL, Tableau, Excel",4,Full-Time,Consulting
+Data Scientist,Wipro,Delhi,1136389,"Python, Machine Learning, SQL, Pandas",0,Full-Time,Technology
+Data Scientist,Oracle,Mumbai,2245560,"Python, TensorFlow, Deep Learning",8,Full-Time,Consulting
+Product Analyst,Paytm,Noida,1747189,"SQL, Python, Tableau",7,Full-Time,FinTech
+ML Engineer,HCL,Hyderabad,3056977,"Python, PyTorch, Machine Learning",0,Full-Time,Security
+Frontend Developer,Infosys,Pune,3270036,"JavaScript, React, HTML, CSS",4,Full-Time,Technology
+Cloud Engineer,TCS,Noida,1156545,"AWS, Docker, Kubernetes, Linux",1,Full-Time,Security
+ML Engineer,TCS,Mumbai,1721630,"Python, PyTorch, Machine Learning",7,Full-Time,Security
+Backend Developer,Capgemini,Mumbai,798549,"Python, Django, PostgreSQL",7,Full-Time,SaaS
+Cyber Security Analyst,Infosys,Mumbai,2283162,"Network Security, SIEM, Python",3,Full-Time,E-Commerce
+Cloud Architect,TCS,Pune,799514,"AWS, GCP, Kubernetes",2,Full-Time,FinTech
+BI Developer,Infosys,Kolkata,2341943,"Power BI, SQL, DAX",4,Full-Time,Security
+Business Analyst,IBM,Kolkata,2599132,"Excel, SQL, Power BI, Tableau",4,Full-Time,IT
+ML Engineer,HCL,Chennai,2312059,"Python, PyTorch, Machine Learning",0,Full-Time,IT
+Data Scientist,Paytm,Bangalore,3328212,"Python, TensorFlow, Deep Learning",3,Full-Time,FinTech
+Data Analyst,IBM,Kolkata,2473423,"SQL, Tableau, Excel",2,Full-Time,Technology
+ML Engineer,Paytm,Kolkata,3162480,"Python, PyTorch, Machine Learning",6,Full-Time,Consulting
+Data Engineer,Amazon,Hyderabad,1897996,"Python, Spark, Hadoop, SQL",6,Full-Time,E-Commerce
+Business Analyst,Capgemini,Noida,1708873,"Excel, SQL, Power BI, Tableau",7,Full-Time,Consulting
+Data Scientist,Amazon,Hyderabad,1558637,"Python, TensorFlow, Deep Learning",5,Full-Time,SaaS
+Cloud Engineer,Paytm,Kolkata,3258427,"AWS, Docker, Kubernetes, Linux",0,Full-Time,IT
+Frontend Developer,Oracle,Kolkata,2017412,"React, TypeScript, CSS",8,Full-Time,SaaS
+Data Analyst,IBM,Pune,1620115,"SQL, Tableau, Excel",3,Full-Time,Consulting
+Product Analyst,TCS,Mumbai,1009297,"SQL, Python, Tableau",7,Full-Time,E-Commerce
+Cloud Engineer,Google,Hyderabad,2816310,"AWS, Docker, Kubernetes, Linux",0,Full-Time,SaaS
+Product Analyst,Infosys,Pune,2435452,"SQL, Python, Tableau",1,Full-Time,Security
+Backend Developer,Cognizant,Noida,3458710,"Python, Django, PostgreSQL",8,Full-Time,Consulting
+Frontend Developer,Wipro,Noida,2812173,"JavaScript, React, HTML, CSS",7,Full-Time,FinTech
+Cloud Engineer,Cognizant,Noida,792804,"AWS, Docker, Kubernetes, Linux",2,Full-Time,SaaS
+Cloud Engineer,Cognizant,Delhi,510759,"AWS, Docker, Kubernetes, Linux",4,Full-Time,SaaS
+Software Engineer,Microsoft,Chennai,2758970,"Python, Django, PostgreSQL",7,Full-Time,FinTech
+Cyber Security Analyst,Microsoft,Chennai,2082133,"Network Security, SIEM, Python",8,Full-Time,Security
+Frontend Developer,Paytm,Noida,1479631,"JavaScript, React, HTML, CSS",6,Full-Time,E-Commerce
+BI Developer,Flipkart,Noida,3457940,"Power BI, SQL, DAX",7,Full-Time,Security
+Cyber Security Analyst,TCS,Pune,2577558,"Network Security, SIEM, Python",2,Full-Time,SaaS
+Data Scientist,IBM,Kolkata,918221,"Python, Machine Learning, SQL, Pandas",7,Full-Time,Security
+Software Engineer,Wipro,Hyderabad,3246351,"Python, Django, PostgreSQL",6,Full-Time,SaaS
+Backend Developer,HCL,Noida,3114139,"Node.js, MongoDB, Express",5,Full-Time,SaaS
+Data Engineer,Amazon,Kolkata,2093874,"Python, Spark, Hadoop, SQL",8,Full-Time,FinTech
+Data Scientist,Capgemini,Delhi,3147281,"Python, Machine Learning, SQL, Pandas",3,Full-Time,Security
+Data Scientist,Zoho,Hyderabad,912900,"Python, TensorFlow, Deep Learning",6,Full-Time,Technology
+BI Developer,TCS,Chennai,621413,"Power BI, SQL, DAX",4,Full-Time,E-Commerce
+Data Engineer,Wipro,Mumbai,2306431,"AWS, Spark, ETL, SQL",5,Full-Time,FinTech
+DevOps Engineer,Wipro,Hyderabad,1212963,"Docker, Kubernetes, AWS, Jenkins",2,Full-Time,FinTech
+DevOps Engineer,Flipkart,Pune,2587367,"Docker, Kubernetes, AWS, Jenkins",3,Full-Time,Consulting
+DevOps Engineer,Cognizant,Bangalore,2427578,"Docker, Kubernetes, AWS, Jenkins",4,Full-Time,E-Commerce
+DevOps Engineer,Infosys,Kolkata,1162597,"Docker, Kubernetes, AWS, Jenkins",8,Full-Time,FinTech
+Backend Developer,Cognizant,Kolkata,3395384,"Python, Django, PostgreSQL",6,Full-Time,Technology
+Business Analyst,Accenture,Noida,947336,"Excel, SQL, Power BI, Tableau",7,Full-Time,FinTech
+Backend Developer,Paytm,Noida,592021,"Python, Django, PostgreSQL",4,Full-Time,IT
+ML Engineer,HCL,Kolkata,3043453,"Python, PyTorch, Machine Learning",0,Full-Time,SaaS
+Cyber Security Analyst,Zoho,Chennai,3046215,"Network Security, SIEM, Python",3,Full-Time,Security
+Frontend Developer,Zoho,Pune,3342750,"JavaScript, React, HTML, CSS",4,Full-Time,Security
+DevOps Engineer,Zoho,Kolkata,1795758,"Docker, Kubernetes, AWS, Jenkins",0,Full-Time,FinTech
+Data Engineer,Flipkart,Delhi,878046,"AWS, Spark, ETL, SQL",2,Full-Time,Security
+Business Analyst,Wipro,Chennai,1342194,"Excel, SQL, Power BI, Tableau",2,Full-Time,SaaS
+Software Engineer,Zoho,Delhi,2521016,"Python, Django, PostgreSQL",4,Full-Time,SaaS
+Data Scientist,Wipro,Mumbai,815828,"Python, TensorFlow, Deep Learning",7,Full-Time,SaaS
+Cyber Security Analyst,Infosys,Noida,2034171,"Network Security, SIEM, Python",8,Full-Time,E-Commerce
+Cloud Engineer,Amazon,Delhi,2407510,"AWS, Docker, Kubernetes, Linux",1,Full-Time,SaaS
+DevOps Engineer,Capgemini,Mumbai,954436,"Docker, Kubernetes, AWS, Jenkins",5,Full-Time,IT
+ML Engineer,Flipkart,Mumbai,1875758,"Python, PyTorch, Machine Learning",8,Full-Time,Security
+Cloud Architect,Cognizant,Noida,3440530,"AWS, GCP, Kubernetes",7,Full-Time,Technology
+Data Analyst,Microsoft,Hyderabad,1776597,"Python, SQL, Power BI, Excel",0,Full-Time,Technology
+Product Analyst,Google,Kolkata,1069016,"SQL, Python, Tableau",8,Full-Time,Security
+BI Developer,Oracle,Pune,2257945,"Power BI, SQL, DAX",8,Full-Time,Security
+Data Scientist,Google,Delhi,3082232,"Python, Machine Learning, SQL, Pandas",7,Full-Time,Security
+Data Engineer,Microsoft,Mumbai,2359683,"AWS, Spark, ETL, SQL",3,Full-Time,IT
+DevOps Engineer,Flipkart,Chennai,2783655,"Docker, Kubernetes, AWS, Jenkins",5,Full-Time,Consulting
+Backend Developer,Paytm,Kolkata,1012374,"Node.js, MongoDB, Express",3,Full-Time,Security
+Frontend Developer,Zoho,Chennai,712141,"JavaScript, React, HTML, CSS",0,Full-Time,Technology
+Cyber Security Analyst,Paytm,Mumbai,787771,"Network Security, SIEM, Python",3,Full-Time,SaaS
+Cloud Architect,Zoho,Pune,1878078,"AWS, GCP, Kubernetes",3,Full-Time,E-Commerce
+Cloud Architect,IBM,Delhi,1045226,"AWS, GCP, Kubernetes",2,Full-Time,IT
+DevOps Engineer,TCS,Chennai,1052822,"Docker, Kubernetes, AWS, Jenkins",0,Full-Time,FinTech
+Data Engineer,Cognizant,Bangalore,1230841,"Python, Spark, Hadoop, SQL",0,Full-Time,Security
+Business Analyst,HCL,Hyderabad,976679,"Excel, SQL, Power BI, Tableau",8,Full-Time,Consulting
+Cyber Security Analyst,Oracle,Hyderabad,2652676,"Network Security, SIEM, Python",5,Full-Time,FinTech
+Frontend Developer,IBM,Delhi,3263639,"React, TypeScript, CSS",0,Full-Time,Security
+Data Analyst,Paytm,Noida,2508995,"SQL, Tableau, Excel",0,Full-Time,Security
+Data Scientist,Flipkart,Kolkata,3488027,"Python, Machine Learning, SQL, Pandas",7,Full-Time,IT
+Data Engineer,Wipro,Delhi,775491,"AWS, Spark, ETL, SQL",2,Full-Time,Consulting
+ML Engineer,Microsoft,Noida,1736890,"Python, PyTorch, Machine Learning",8,Full-Time,SaaS
+BI Developer,Capgemini,Mumbai,3246065,"Power BI, SQL, DAX",1,Full-Time,Consulting
+Product Analyst,Amazon,Kolkata,2235659,"SQL, Python, Tableau",3,Full-Time,Consulting
+BI Developer,Google,Chennai,1810922,"Power BI, SQL, DAX",1,Full-Time,E-Commerce
+Software Engineer,Infosys,Hyderabad,781577,"Java, Spring Boot, MySQL",7,Full-Time,Consulting
+Data Scientist,IBM,Bangalore,1045743,"Python, TensorFlow, Deep Learning",5,Full-Time,Security
+Data Scientist,Paytm,Noida,1983097,"Python, Machine Learning, SQL, Pandas",6,Full-Time,E-Commerce
+ML Engineer,Infosys,Mumbai,1974911,"Python, PyTorch, Machine Learning",4,Full-Time,Security
+AI Engineer,Amazon,Chennai,953900,"Python, TensorFlow, Deep Learning",3,Full-Time,SaaS
+Backend Developer,Paytm,Bangalore,2299827,"Python, Django, PostgreSQL",3,Full-Time,IT
+Software Engineer,Zoho,Delhi,3447332,"Python, Django, PostgreSQL",4,Full-Time,E-Commerce
+Data Analyst,Oracle,Noida,1100840,"Python, SQL, Power BI, Excel",2,Full-Time,Technology
+BI Developer,HCL,Mumbai,884859,"Power BI, SQL, DAX",0,Full-Time,Consulting
+AI Engineer,Amazon,Delhi,1160222,"Python, TensorFlow, Deep Learning",5,Full-Time,SaaS
+ML Engineer,Wipro,Pune,720657,"Python, PyTorch, Machine Learning",1,Full-Time,Security
+Data Scientist,Capgemini,Noida,2358550,"Python, TensorFlow, Deep Learning",4,Full-Time,FinTech
+AI Engineer,Accenture,Hyderabad,1645744,"Python, TensorFlow, Deep Learning",6,Full-Time,Consulting
+Data Scientist,Capgemini,Kolkata,3344652,"Python, TensorFlow, Deep Learning",4,Full-Time,IT
+Frontend Developer,TCS,Bangalore,3013751,"JavaScript, React, HTML, CSS",6,Full-Time,E-Commerce
+Frontend Developer,Cognizant,Chennai,1571726,"JavaScript, React, HTML, CSS",2,Full-Time,IT
+AI Engineer,Wipro,Noida,1236917,"Python, TensorFlow, Deep Learning",6,Full-Time,FinTech
+Cloud Engineer,Google,Bangalore,802306,"AWS, Docker, Kubernetes, Linux",5,Full-Time,IT
+AI Engineer,Oracle,Noida,1813071,"Python, TensorFlow, Deep Learning",1,Full-Time,Security
+DevOps Engineer,Infosys,Noida,1714314,"Docker, Kubernetes, AWS, Jenkins",6,Full-Time,E-Commerce
+Software Engineer,Flipkart,Chennai,3392434,"Java, Spring Boot, MySQL",7,Full-Time,Consulting
+Cloud Architect,Google,Noida,1520543,"AWS, GCP, Kubernetes",1,Full-Time,Consulting
+Cloud Architect,Accenture,Chennai,1924021,"AWS, GCP, Kubernetes",4,Full-Time,IT
+Cloud Engineer,IBM,Mumbai,2725517,"AWS, Docker, Kubernetes, Linux",1,Full-Time,E-Commerce
+BI Developer,Infosys,Pune,1490983,"Power BI, SQL, DAX",2,Full-Time,Technology
+Software Engineer,Infosys,Pune,3249404,"Python, Django, PostgreSQL",2,Full-Time,Consulting
+Cyber Security Analyst,Flipkart,Chennai,3356880,"Network Security, SIEM, Python",7,Full-Time,Technology
+AI Engineer,Microsoft,Delhi,2466797,"Python, TensorFlow, Deep Learning",1,Full-Time,FinTech
+Data Analyst,Infosys,Delhi,2627925,"SQL, Tableau, Excel",5,Full-Time,Consulting
+Data Analyst,Paytm,Delhi,2046597,"Python, SQL, Power BI, Excel",0,Full-Time,Security
+Cloud Architect,Oracle,Noida,3079532,"AWS, GCP, Kubernetes",1,Full-Time,FinTech
+Cloud Engineer,Flipkart,Mumbai,2386319,"AWS, Docker, Kubernetes, Linux",0,Full-Time,FinTech
+AI Engineer,TCS,Kolkata,1132757,"Python, TensorFlow, Deep Learning",8,Full-Time,SaaS
+Product Analyst,Infosys,Pune,3496056,"SQL, Python, Tableau",5,Full-Time,Technology
+BI Developer,IBM,Pune,2343068,"Power BI, SQL, DAX",7,Full-Time,E-Commerce
+Product Analyst,Google,Chennai,2124942,"SQL, Python, Tableau",4,Full-Time,SaaS
+DevOps Engineer,Amazon,Hyderabad,776454,"Docker, Kubernetes, AWS, Jenkins",5,Full-Time,E-Commerce
+Backend Developer,Infosys,Pune,1898221,"Python, Django, PostgreSQL",2,Full-Time,E-Commerce
+DevOps Engineer,Oracle,Hyderabad,1040862,"Docker, Kubernetes, AWS, Jenkins",6,Full-Time,FinTech
+Business Analyst,Capgemini,Hyderabad,1036005,"Excel, SQL, Power BI, Tableau",5,Full-Time,FinTech
+Data Engineer,Cognizant,Pune,2020844,"Python, Spark, Hadoop, SQL",0,Full-Time,E-Commerce
+Cyber Security Analyst,Accenture,Pune,1305328,"Network Security, SIEM, Python",7,Full-Time,IT
+Backend Developer,Zoho,Bangalore,2629404,"Python, Django, PostgreSQL",1,Full-Time,SaaS
+ML Engineer,Google,Pune,3005033,"Python, PyTorch, Machine Learning",2,Full-Time,Technology
+Cloud Architect,TCS,Noida,2335735,"AWS, GCP, Kubernetes",2,Full-Time,Security
+BI Developer,Oracle,Delhi,2363104,"Power BI, SQL, DAX",3,Full-Time,Technology
+Cloud Engineer,Zoho,Kolkata,1798002,"AWS, Docker, Kubernetes, Linux",3,Full-Time,E-Commerce
+DevOps Engineer,Zoho,Delhi,2436426,"Docker, Kubernetes, AWS, Jenkins",7,Full-Time,FinTech
+Cloud Engineer,Paytm,Mumbai,1179721,"AWS, Docker, Kubernetes, Linux",6,Full-Time,SaaS
+Backend Developer,Microsoft,Chennai,3189299,"Node.js, MongoDB, Express",0,Full-Time,Security
+Cloud Architect,Cognizant,Hyderabad,1022936,"AWS, GCP, Kubernetes",8,Full-Time,E-Commerce
+AI Engineer,Paytm,Noida,1118025,"Python, TensorFlow, Deep Learning",8,Full-Time,Technology
+Cloud Architect,Flipkart,Bangalore,1966266,"AWS, GCP, Kubernetes",7,Full-Time,IT
+Business Analyst,Accenture,Noida,2068508,"Excel, SQL, Power BI, Tableau",8,Full-Time,E-Commerce
+Frontend Developer,Flipkart,Hyderabad,1836661,"React, TypeScript, CSS",0,Full-Time,SaaS
+Software Engineer,Cognizant,Kolkata,660655,"Java, Spring Boot, MySQL",2,Full-Time,SaaS
+BI Developer,Oracle,Bangalore,2381570,"Power BI, SQL, DAX",7,Full-Time,IT
+Backend Developer,IBM,Noida,1127130,"Node.js, MongoDB, Express",3,Full-Time,SaaS
+Backend Developer,Infosys,Bangalore,1763119,"Node.js, MongoDB, Express",3,Full-Time,Consulting
+DevOps Engineer,Infosys,Kolkata,763432,"Docker, Kubernetes, AWS, Jenkins",7,Full-Time,Security
+Cloud Engineer,Cognizant,Noida,1102204,"AWS, Docker, Kubernetes, Linux",3,Full-Time,FinTech
+Data Engineer,Google,Pune,2893537,"Python, Spark, Hadoop, SQL",3,Full-Time,FinTech
+Data Engineer,IBM,Bangalore,2706453,"AWS, Spark, ETL, SQL",1,Full-Time,SaaS
+AI Engineer,Google,Chennai,3166196,"Python, TensorFlow, Deep Learning",0,Full-Time,Security
+Data Analyst,Amazon,Mumbai,783365,"Python, SQL, Tableau",5,Full-Time,Security
+DevOps Engineer,HCL,Chennai,2940679,"Docker, Kubernetes, AWS, Jenkins",1,Full-Time,IT
+Data Engineer,Paytm,Pune,1919970,"AWS, Spark, ETL, SQL",8,Full-Time,Security
+AI Engineer,Infosys,Kolkata,1065612,"Python, TensorFlow, Deep Learning",2,Full-Time,E-Commerce
+Frontend Developer,Flipkart,Bangalore,1336637,"React, TypeScript, CSS",0,Full-Time,E-Commerce
+Cloud Engineer,Microsoft,Delhi,2777635,"AWS, Docker, Kubernetes, Linux",6,Full-Time,SaaS
+DevOps Engineer,Amazon,Bangalore,1700036,"Docker, Kubernetes, AWS, Jenkins",3,Full-Time,E-Commerce
+Data Scientist,Flipkart,Noida,2332706,"Python, TensorFlow, Deep Learning",5,Full-Time,Consulting
+Data Engineer,HCL,Kolkata,2581227,"AWS, Spark, ETL, SQL",2,Full-Time,SaaS
+Cloud Engineer,HCL,Noida,846497,"AWS, Docker, Kubernetes, Linux",4,Full-Time,Consulting
+ML Engineer,Cognizant,Chennai,2787885,"Python, PyTorch, Machine Learning",2,Full-Time,IT
+Data Engineer,Microsoft,Noida,1785536,"Python, Spark, Hadoop, SQL",4,Full-Time,Security
+AI Engineer,TCS,Chennai,2375397,"Python, TensorFlow, Deep Learning",5,Full-Time,E-Commerce
+DevOps Engineer,Capgemini,Noida,814745,"Docker, Kubernetes, AWS, Jenkins",0,Full-Time,FinTech
+Cyber Security Analyst,Wipro,Kolkata,630613,"Network Security, SIEM, Python",2,Full-Time,Technology
+Data Scientist,Amazon,Chennai,3206009,"Python, TensorFlow, Deep Learning",3,Full-Time,FinTech
+Data Analyst,Microsoft,Chennai,3348192,"SQL, Tableau, Excel",2,Full-Time,Consulting
+Cyber Security Analyst,Wipro,Chennai,2907202,"Network Security, SIEM, Python",1,Full-Time,E-Commerce
+DevOps Engineer,Infosys,Bangalore,1546947,"Docker, Kubernetes, AWS, Jenkins",4,Full-Time,Consulting
+Cloud Engineer,Infosys,Delhi,2855826,"AWS, Docker, Kubernetes, Linux",6,Full-Time,Security
+AI Engineer,Cognizant,Kolkata,3066398,"Python, TensorFlow, Deep Learning",3,Full-Time,IT
+Software Engineer,Wipro,Kolkata,2396004,"Java, Spring Boot, MySQL",1,Full-Time,SaaS
+DevOps Engineer,Amazon,Hyderabad,3301123,"Docker, Kubernetes, AWS, Jenkins",5,Full-Time,E-Commerce
+Cloud Architect,HCL,Pune,3485543,"AWS, GCP, Kubernetes",2,Full-Time,FinTech
+Frontend Developer,Zoho,Pune,1342972,"JavaScript, React, HTML, CSS",1,Full-Time,SaaS
+AI Engineer,IBM,Chennai,2013709,"Python, TensorFlow, Deep Learning",0,Full-Time,SaaS
+Cloud Engineer,Flipkart,Hyderabad,3066697,"AWS, Docker, Kubernetes, Linux",2,Full-Time,E-Commerce
+Business Analyst,Google,Noida,2704927,"Excel, SQL, Power BI, Tableau",7,Full-Time,Technology
+Data Engineer,Microsoft,Chennai,2387329,"Python, Spark, Hadoop, SQL",1,Full-Time,SaaS
+Cyber Security Analyst,Oracle,Pune,3183490,"Network Security, SIEM, Python",8,Full-Time,Consulting
+Cloud Engineer,IBM,Pune,1020769,"AWS, Docker, Kubernetes, Linux",0,Full-Time,Technology
+Software Engineer,Accenture,Chennai,3475154,"Python, Django, PostgreSQL",5,Full-Time,SaaS
+Data Scientist,Capgemini,Delhi,1323349,"Python, Machine Learning, SQL, Pandas",4,Full-Time,Security
+Backend Developer,IBM,Pune,891867,"Node.js, MongoDB, Express",8,Full-Time,Technology
+DevOps Engineer,TCS,Bangalore,2863985,"Docker, Kubernetes, AWS, Jenkins",5,Full-Time,IT
+DevOps Engineer,Accenture,Noida,3231037,"Docker, Kubernetes, AWS, Jenkins",4,Full-Time,Consulting
+Product Analyst,Capgemini,Delhi,1714970,"SQL, Python, Tableau",8,Full-Time,Technology
+Cyber Security Analyst,Microsoft,Hyderabad,1747528,"Network Security, SIEM, Python",6,Full-Time,Technology
+AI Engineer,Microsoft,Mumbai,2531096,"Python, TensorFlow, Deep Learning",6,Full-Time,FinTech
+Software Engineer,HCL,Chennai,1839310,"Python, Django, PostgreSQL",5,Full-Time,Technology
+Cyber Security Analyst,IBM,Hyderabad,2659983,"Network Security, SIEM, Python",5,Full-Time,Technology
+AI Engineer,Microsoft,Mumbai,1621857,"Python, TensorFlow, Deep Learning",1,Full-Time,IT
+Data Analyst,Paytm,Noida,2111241,"Python, SQL, Power BI, Excel",4,Full-Time,SaaS
+Product Analyst,Flipkart,Chennai,1873365,"SQL, Python, Tableau",2,Full-Time,SaaS
+Software Engineer,Microsoft,Kolkata,2658912,"Python, Django, PostgreSQL",7,Full-Time,Consulting
+Data Analyst,IBM,Kolkata,2149377,"Python, SQL, Power BI, Excel",1,Full-Time,Technology
+ML Engineer,TCS,Delhi,704087,"Python, PyTorch, Machine Learning",5,Full-Time,FinTech
+Product Analyst,IBM,Bangalore,1698515,"SQL, Python, Tableau",7,Full-Time,Consulting
+Software Engineer,Zoho,Noida,2034182,"Python, Django, PostgreSQL",4,Full-Time,IT
+Business Analyst,IBM,Mumbai,2891934,"Excel, SQL, Power BI, Tableau",0,Full-Time,FinTech
+Backend Developer,IBM,Kolkata,2120464,"Python, Django, PostgreSQL",1,Full-Time,SaaS
+ML Engineer,Infosys,Noida,1039653,"Python, PyTorch, Machine Learning",1,Full-Time,SaaS
+Data Engineer,Zoho,Pune,2033464,"Python, Spark, Hadoop, SQL",8,Full-Time,FinTech
+Cloud Engineer,TCS,Bangalore,2597478,"AWS, Docker, Kubernetes, Linux",6,Full-Time,Technology
+BI Developer,IBM,Kolkata,2487026,"Power BI, SQL, DAX",5,Full-Time,FinTech
+Product Analyst,Amazon,Chennai,1086283,"SQL, Python, Tableau",8,Full-Time,Consulting
+ML Engineer,Amazon,Kolkata,2990261,"Python, PyTorch, Machine Learning",4,Full-Time,Consulting
+Cloud Architect,Amazon,Hyderabad,2045004,"AWS, GCP, Kubernetes",0,Full-Time,FinTech
+Backend Developer,Microsoft,Delhi,3003620,"Node.js, MongoDB, Express",0,Full-Time,Security
+Data Analyst,IBM,Noida,1215179,"Python, SQL, Power BI, Excel",7,Full-Time,SaaS
+DevOps Engineer,Oracle,Hyderabad,632416,"Docker, Kubernetes, AWS, Jenkins",3,Full-Time,IT
+AI Engineer,Wipro,Noida,2256491,"Python, TensorFlow, Deep Learning",5,Full-Time,Consulting
+Cloud Engineer,HCL,Pune,761226,"AWS, Docker, Kubernetes, Linux",7,Full-Time,FinTech
+Data Engineer,Google,Chennai,2704010,"Python, Spark, Hadoop, SQL",7,Full-Time,Consulting
+Product Analyst,IBM,Chennai,1935823,"SQL, Python, Tableau",8,Full-Time,FinTech
+AI Engineer,Cognizant,Delhi,1533976,"Python, TensorFlow, Deep Learning",3,Full-Time,E-Commerce
+Cyber Security Analyst,Accenture,Kolkata,3456568,"Network Security, SIEM, Python",4,Full-Time,Consulting
+Data Engineer,Cognizant,Hyderabad,1646964,"AWS, Spark, ETL, SQL",8,Full-Time,Consulting
+Cloud Architect,Cognizant,Bangalore,1114365,"AWS, GCP, Kubernetes",5,Full-Time,Security
+Data Scientist,Capgemini,Delhi,2355459,"Python, TensorFlow, Deep Learning",5,Full-Time,Technology
+Frontend Developer,Flipkart,Delhi,1637213,"JavaScript, React, HTML, CSS",8,Full-Time,IT
+ML Engineer,TCS,Mumbai,1516942,"Python, PyTorch, Machine Learning",3,Full-Time,IT
+Data Scientist,HCL,Kolkata,1885351,"Python, Machine Learning, SQL, Pandas",6,Full-Time,Security
+Cyber Security Analyst,IBM,Pune,521732,"Network Security, SIEM, Python",2,Full-Time,Security
+Product Analyst,Capgemini,Mumbai,2502564,"SQL, Python, Tableau",7,Full-Time,E-Commerce
+Backend Developer,Capgemini,Mumbai,875225,"Node.js, MongoDB, Express",0,Full-Time,Technology
+Business Analyst,Paytm,Noida,652420,"Excel, SQL, Power BI, Tableau",2,Full-Time,Technology
+Product Analyst,TCS,Delhi,657144,"SQL, Python, Tableau",4,Full-Time,E-Commerce
+Backend Developer,IBM,Kolkata,3189859,"Node.js, MongoDB, Express",7,Full-Time,SaaS
+Cloud Engineer,Accenture,Hyderabad,1644361,"AWS, Docker, Kubernetes, Linux",7,Full-Time,Technology
+BI Developer,Cognizant,Pune,3219105,"Power BI, SQL, DAX",7,Full-Time,Security
+Data Engineer,Capgemini,Mumbai,2881447,"Python, Spark, Hadoop, SQL",4,Full-Time,FinTech
+Cloud Architect,IBM,Chennai,2293917,"AWS, GCP, Kubernetes",6,Full-Time,Consulting
+DevOps Engineer,Wipro,Kolkata,1275028,"Docker, Kubernetes, AWS, Jenkins",1,Full-Time,Technology
+Data Analyst,Accenture,Kolkata,2108827,"SQL, Tableau, Excel",4,Full-Time,E-Commerce
+Backend Developer,Capgemini,Chennai,1597033,"Node.js, MongoDB, Express",0,Full-Time,IT
+DevOps Engineer,Cognizant,Pune,2452008,"Docker, Kubernetes, AWS, Jenkins",1,Full-Time,Security
+Cloud Engineer,Infosys,Delhi,3395287,"AWS, Docker, Kubernetes, Linux",4,Full-Time,FinTech
+Frontend Developer,Microsoft,Pune,1060228,"React, TypeScript, CSS",3,Full-Time,Security
+ML Engineer,HCL,Kolkata,2244182,"Python, PyTorch, Machine Learning",5,Full-Time,SaaS
+Frontend Developer,Microsoft,Chennai,2704134,"JavaScript, React, HTML, CSS",1,Full-Time,FinTech
+Data Scientist,Flipkart,Mumbai,2797007,"Python, Machine Learning, SQL, Pandas",0,Full-Time,Technology
+Data Engineer,Infosys,Mumbai,2353213,"AWS, Spark, ETL, SQL",8,Full-Time,IT
+Product Analyst,Zoho,Bangalore,2368489,"SQL, Python, Tableau",8,Full-Time,Technology
+Cloud Engineer,Oracle,Bangalore,2415951,"AWS, Docker, Kubernetes, Linux",6,Full-Time,Security
+Cyber Security Analyst,Google,Delhi,591311,"Network Security, SIEM, Python",4,Full-Time,Security
+Frontend Developer,Google,Chennai,689959,"JavaScript, React, HTML, CSS",1,Full-Time,FinTech
+Data Analyst,TCS,Delhi,2480010,"SQL, Tableau, Excel",1,Full-Time,Technology
+Cyber Security Analyst,HCL,Noida,3190750,"Network Security, SIEM, Python",2,Full-Time,Consulting
+AI Engineer,Infosys,Pune,2075571,"Python, TensorFlow, Deep Learning",6,Full-Time,IT
+Software Engineer,IBM,Pune,2148607,"Java, Spring Boot, MySQL",8,Full-Time,SaaS
+Data Analyst,Microsoft,Noida,1751425,"Python, SQL, Tableau",0,Full-Time,Consulting
+Cloud Architect,Microsoft,Chennai,1538140,"AWS, GCP, Kubernetes",3,Full-Time,E-Commerce
+Frontend Developer,Zoho,Noida,635129,"JavaScript, React, HTML, CSS",1,Full-Time,Technology
+Frontend Developer,Oracle,Bangalore,923191,"React, TypeScript, CSS",1,Full-Time,FinTech
+DevOps Engineer,HCL,Bangalore,1526489,"Docker, Kubernetes, AWS, Jenkins",0,Full-Time,Consulting
+Frontend Developer,Zoho,Bangalore,1411293,"JavaScript, React, HTML, CSS",8,Full-Time,FinTech
+Backend Developer,Amazon,Chennai,2916381,"Node.js, MongoDB, Express",3,Full-Time,E-Commerce
+Product Analyst,IBM,Mumbai,3269131,"SQL, Python, Tableau",2,Full-Time,E-Commerce
+Backend Developer,Oracle,Pune,2835045,"Python, Django, PostgreSQL",0,Full-Time,FinTech
+AI Engineer,Capgemini,Noida,1944580,"Python, TensorFlow, Deep Learning",0,Full-Time,Security
+Business Analyst,Cognizant,Noida,1125864,"Excel, SQL, Power BI, Tableau",6,Full-Time,SaaS
+Cloud Engineer,Paytm,Mumbai,1510693,"AWS, Docker, Kubernetes, Linux",7,Full-Time,SaaS
+BI Developer,Flipkart,Bangalore,2442068,"Power BI, SQL, DAX",2,Full-Time,Consulting
+Cloud Engineer,Google,Mumbai,1062425,"AWS, Docker, Kubernetes, Linux",8,Full-Time,Technology
+Data Engineer,Paytm,Chennai,2386542,"Python, Spark, Hadoop, SQL",1,Full-Time,FinTech
+BI Developer,Cognizant,Noida,716160,"Power BI, SQL, DAX",3,Full-Time,SaaS
+Data Scientist,HCL,Mumbai,2964504,"Python, TensorFlow, Deep Learning",3,Full-Time,Technology
+Cloud Architect,Flipkart,Bangalore,1771662,"AWS, GCP, Kubernetes",5,Full-Time,Technology
+BI Developer,Flipkart,Mumbai,2508739,"Power BI, SQL, DAX",1,Full-Time,Consulting
+Product Analyst,Amazon,Delhi,2815588,"SQL, Python, Tableau",3,Full-Time,Consulting
+Cloud Engineer,Cognizant,Chennai,1793616,"AWS, Docker, Kubernetes, Linux",5,Full-Time,Consulting
+Data Scientist,Flipkart,Mumbai,1843155,"Python, TensorFlow, Deep Learning",7,Full-Time,E-Commerce
+Business Analyst,Paytm,Mumbai,2859399,"Excel, SQL, Power BI, Tableau",0,Full-Time,IT
+Backend Developer,Oracle,Noida,2949607,"Python, Django, PostgreSQL",8,Full-Time,Technology
+Frontend Developer,Google,Mumbai,1464768,"React, TypeScript, CSS",5,Full-Time,FinTech
+DevOps Engineer,Zoho,Kolkata,1579306,"Docker, Kubernetes, AWS, Jenkins",5,Full-Time,Consulting
+Software Engineer,Wipro,Kolkata,1209951,"Java, Spring Boot, MySQL",5,Full-Time,FinTech
+DevOps Engineer,TCS,Hyderabad,2697582,"Docker, Kubernetes, AWS, Jenkins",0,Full-Time,SaaS
+Data Analyst,Paytm,Mumbai,1076681,"Python, SQL, Power BI, Excel",6,Full-Time,Security
+Software Engineer,IBM,Kolkata,1417376,"Python, Django, PostgreSQL",0,Full-Time,IT
+ML Engineer,Microsoft,Bangalore,3265238,"Python, PyTorch, Machine Learning",7,Full-Time,FinTech
+Cloud Engineer,TCS,Delhi,549706,"AWS, Docker, Kubernetes, Linux",6,Full-Time,IT
+Cloud Engineer,Infosys,Hyderabad,1251899,"AWS, Docker, Kubernetes, Linux",6,Full-Time,Technology
+Frontend Developer,Paytm,Chennai,1558718,"React, TypeScript, CSS",8,Full-Time,SaaS
+Business Analyst,Google,Kolkata,2064691,"Excel, SQL, Power BI, Tableau",1,Full-Time,Security
+Frontend Developer,Paytm,Hyderabad,3369078,"JavaScript, React, HTML, CSS",4,Full-Time,IT
+Business Analyst,IBM,Kolkata,2081963,"Excel, SQL, Power BI, Tableau",6,Full-Time,Security
+Data Analyst,Microsoft,Noida,846810,"Python, SQL, Tableau",2,Full-Time,SaaS
+Data Engineer,Flipkart,Bangalore,2715260,"Python, Spark, Hadoop, SQL",1,Full-Time,Technology
+Product Analyst,TCS,Hyderabad,1637055,"SQL, Python, Tableau",7,Full-Time,FinTech
+ML Engineer,Flipkart,Chennai,1252267,"Python, PyTorch, Machine Learning",0,Full-Time,Technology
+ML Engineer,Paytm,Noida,3489328,"Python, PyTorch, Machine Learning",2,Full-Time,E-Commerce
+Software Engineer,Paytm,Noida,2876894,"Python, Django, PostgreSQL",3,Full-Time,Consulting
+Cyber Security Analyst,HCL,Hyderabad,3391177,"Network Security, SIEM, Python",2,Full-Time,IT
+Data Scientist,Paytm,Hyderabad,1473682,"Python, TensorFlow, Deep Learning",6,Full-Time,FinTech
+Cyber Security Analyst,TCS,Delhi,1868922,"Network Security, SIEM, Python",6,Full-Time,Consulting
+Frontend Developer,Google,Noida,2819608,"JavaScript, React, HTML, CSS",5,Full-Time,Security
+ML Engineer,Zoho,Delhi,859427,"Python, PyTorch, Machine Learning",6,Full-Time,Security
+Data Scientist,Wipro,Noida,1623956,"Python, Machine Learning, SQL, Pandas",1,Full-Time,Security
+Business Analyst,Infosys,Hyderabad,2012886,"Excel, SQL, Power BI, Tableau",5,Full-Time,E-Commerce
+AI Engineer,Infosys,Pune,1631482,"Python, TensorFlow, Deep Learning",5,Full-Time,Technology
+Business Analyst,IBM,Noida,2836164,"Excel, SQL, Power BI, Tableau",7,Full-Time,IT
+Data Scientist,Infosys,Chennai,2824566,"Python, TensorFlow, Deep Learning",5,Full-Time,IT
+Backend Developer,Zoho,Hyderabad,2126549,"Node.js, MongoDB, Express",6,Full-Time,FinTech
+Cloud Engineer,Google,Pune,3374423,"AWS, Docker, Kubernetes, Linux",2,Full-Time,E-Commerce
+Backend Developer,Wipro,Hyderabad,2568311,"Node.js, MongoDB, Express",4,Full-Time,Consulting
+Backend Developer,Microsoft,Hyderabad,1757252,"Python, Django, PostgreSQL",6,Full-Time,E-Commerce
+Frontend Developer,Oracle,Mumbai,2990604,"React, TypeScript, CSS",7,Full-Time,IT
+Software Engineer,Google,Chennai,528384,"Python, Django, PostgreSQL",4,Full-Time,SaaS
+Cloud Architect,Amazon,Noida,2346428,"AWS, GCP, Kubernetes",5,Full-Time,E-Commerce
+Data Engineer,Amazon,Pune,2509112,"AWS, Spark, ETL, SQL",3,Full-Time,E-Commerce
+Backend Developer,Zoho,Mumbai,2915412,"Python, Django, PostgreSQL",7,Full-Time,Consulting
+Backend Developer,Infosys,Mumbai,2030986,"Node.js, MongoDB, Express",6,Full-Time,Security
+Cyber Security Analyst,HCL,Kolkata,612894,"Network Security, SIEM, Python",8,Full-Time,Consulting
+Cyber Security Analyst,Infosys,Noida,3405961,"Network Security, SIEM, Python",4,Full-Time,Technology
+DevOps Engineer,Cognizant,Pune,1515110,"Docker, Kubernetes, AWS, Jenkins",4,Full-Time,SaaS
+Business Analyst,Oracle,Kolkata,2383522,"Excel, SQL, Power BI, Tableau",1,Full-Time,FinTech
+Cloud Engineer,TCS,Chennai,2780213,"AWS, Docker, Kubernetes, Linux",6,Full-Time,IT
+Cyber Security Analyst,Capgemini,Chennai,3258181,"Network Security, SIEM, Python",3,Full-Time,Security
+ML Engineer,Capgemini,Noida,2862317,"Python, PyTorch, Machine Learning",0,Full-Time,SaaS
+Business Analyst,Infosys,Delhi,544240,"Excel, SQL, Power BI, Tableau",1,Full-Time,FinTech
+BI Developer,Oracle,Mumbai,2840394,"Power BI, SQL, DAX",8,Full-Time,E-Commerce
+Business Analyst,Oracle,Pune,3350262,"Excel, SQL, Power BI, Tableau",7,Full-Time,IT
+AI Engineer,Google,Hyderabad,1739132,"Python, TensorFlow, Deep Learning",1,Full-Time,SaaS
+BI Developer,Cognizant,Chennai,1960996,"Power BI, SQL, DAX",2,Full-Time,SaaS
+Frontend Developer,Amazon,Kolkata,2525538,"JavaScript, React, HTML, CSS",8,Full-Time,Consulting
+BI Developer,Infosys,Delhi,1837603,"Power BI, SQL, DAX",7,Full-Time,SaaS
+BI Developer,Paytm,Chennai,594728,"Power BI, SQL, DAX",1,Full-Time,Security
+Cyber Security Analyst,IBM,Pune,1523045,"Network Security, SIEM, Python",2,Full-Time,E-Commerce
+Cloud Engineer,Accenture,Noida,2437995,"AWS, Docker, Kubernetes, Linux",6,Full-Time,Technology
+DevOps Engineer,TCS,Mumbai,2159192,"Docker, Kubernetes, AWS, Jenkins",6,Full-Time,FinTech
+Business Analyst,HCL,Mumbai,518664,"Excel, SQL, Power BI, Tableau",6,Full-Time,E-Commerce
+Cyber Security Analyst,Infosys,Pune,2921572,"Network Security, SIEM, Python",1,Full-Time,E-Commerce
+Frontend Developer,Cognizant,Kolkata,977961,"React, TypeScript, CSS",7,Full-Time,FinTech
+Business Analyst,Infosys,Chennai,2962076,"Excel, SQL, Power BI, Tableau",6,Full-Time,SaaS
+AI Engineer,HCL,Delhi,3325236,"Python, TensorFlow, Deep Learning",2,Full-Time,Security
+Software Engineer,Accenture,Delhi,994347,"Java, Spring Boot, MySQL",5,Full-Time,Technology
+Data Engineer,Google,Noida,2642554,"Python, Spark, Hadoop, SQL",2,Full-Time,FinTech
+Business Analyst,Microsoft,Pune,1279107,"Excel, SQL, Power BI, Tableau",6,Full-Time,Consulting
+Backend Developer,Amazon,Kolkata,1284748,"Node.js, MongoDB, Express",2,Full-Time,SaaS
+Data Engineer,Wipro,Mumbai,2532597,"AWS, Spark, ETL, SQL",0,Full-Time,FinTech
+Cloud Engineer,Capgemini,Kolkata,2216033,"AWS, Docker, Kubernetes, Linux",7,Full-Time,Security
+Cloud Architect,Wipro,Hyderabad,2549754,"AWS, GCP, Kubernetes",7,Full-Time,SaaS
+Cyber Security Analyst,TCS,Delhi,1725113,"Network Security, SIEM, Python",3,Full-Time,FinTech
+Backend Developer,Oracle,Kolkata,2418144,"Node.js, MongoDB, Express",2,Full-Time,FinTech
+Data Scientist,Paytm,Chennai,2777952,"Python, Machine Learning, SQL, Pandas",4,Full-Time,SaaS
+BI Developer,Accenture,Noida,2791571,"Power BI, SQL, DAX",7,Full-Time,Security
+Cloud Architect,Paytm,Bangalore,1748681,"AWS, GCP, Kubernetes",3,Full-Time,E-Commerce
+Data Engineer,Paytm,Hyderabad,2341592,"Python, Spark, Hadoop, SQL",1,Full-Time,Technology
+Cyber Security Analyst,Oracle,Noida,3481118,"Network Security, SIEM, Python",5,Full-Time,FinTech
+Software Engineer,Zoho,Bangalore,1367980,"Python, Django, PostgreSQL",3,Full-Time,FinTech
+Backend Developer,Amazon,Delhi,1206225,"Python, Django, PostgreSQL",8,Full-Time,FinTech
+Backend Developer,Paytm,Hyderabad,3349187,"Node.js, MongoDB, Express",8,Full-Time,SaaS
+Cyber Security Analyst,Cognizant,Pune,748663,"Network Security, SIEM, Python",6,Full-Time,Technology
+Software Engineer,Zoho,Noida,1538319,"Python, Django, PostgreSQL",5,Full-Time,Technology
+ML Engineer,Google,Noida,3133237,"Python, PyTorch, Machine Learning",4,Full-Time,IT
+DevOps Engineer,IBM,Delhi,2189678,"Docker, Kubernetes, AWS, Jenkins",1,Full-Time,Consulting
+AI Engineer,TCS,Hyderabad,2940898,"Python, TensorFlow, Deep Learning",5,Full-Time,Security
+DevOps Engineer,Zoho,Noida,765628,"Docker, Kubernetes, AWS, Jenkins",5,Full-Time,Consulting
+Cloud Architect,Cognizant,Chennai,2574984,"AWS, GCP, Kubernetes",3,Full-Time,E-Commerce
+Cloud Engineer,Paytm,Kolkata,2874572,"AWS, Docker, Kubernetes, Linux",2,Full-Time,Security
+Cyber Security Analyst,Infosys,Kolkata,692698,"Network Security, SIEM, Python",0,Full-Time,IT
+Product Analyst,Microsoft,Bangalore,2350887,"SQL, Python, Tableau",2,Full-Time,Technology
+BI Developer,Cognizant,Pune,3226285,"Power BI, SQL, DAX",2,Full-Time,IT
+DevOps Engineer,Infosys,Chennai,1550208,"Docker, Kubernetes, AWS, Jenkins",5,Full-Time,IT
+Business Analyst,Zoho,Mumbai,3433669,"Excel, SQL, Power BI, Tableau",4,Full-Time,Security
+Data Scientist,Accenture,Kolkata,504556,"Python, Machine Learning, SQL, Pandas",1,Full-Time,Technology
+ML Engineer,Capgemini,Kolkata,2678707,"Python, PyTorch, Machine Learning",3,Full-Time,IT
+BI Developer,Paytm,Noida,1005806,"Power BI, SQL, DAX",5,Full-Time,Consulting
+Data Scientist,Infosys,Hyderabad,2106711,"Python, Machine Learning, SQL, Pandas",3,Full-Time,E-Commerce
+Data Engineer,Google,Pune,1075161,"Python, Spark, Hadoop, SQL",4,Full-Time,IT
+Cloud Engineer,Capgemini,Pune,3059864,"AWS, Docker, Kubernetes, Linux",0,Full-Time,E-Commerce
+BI Developer,HCL,Pune,3134358,"Power BI, SQL, DAX",3,Full-Time,FinTech
+DevOps Engineer,Infosys,Hyderabad,1411190,"Docker, Kubernetes, AWS, Jenkins",7,Full-Time,SaaS
+Data Scientist,Google,Chennai,1974447,"Python, Machine Learning, SQL, Pandas",6,Full-Time,Technology
+Backend Developer,IBM,Delhi,1540887,"Node.js, MongoDB, Express",1,Full-Time,SaaS
+Cloud Architect,IBM,Mumbai,1361701,"AWS, GCP, Kubernetes",4,Full-Time,E-Commerce
+DevOps Engineer,Microsoft,Noida,1503869,"Docker, Kubernetes, AWS, Jenkins",0,Full-Time,Technology
+AI Engineer,Flipkart,Bangalore,2715794,"Python, TensorFlow, Deep Learning",1,Full-Time,E-Commerce
+Software Engineer,Google,Chennai,2883960,"Java, Spring Boot, MySQL",6,Full-Time,SaaS
+AI Engineer,Oracle,Hyderabad,570000,"Python, TensorFlow, Deep Learning",1,Full-Time,E-Commerce
+Frontend Developer,Zoho,Noida,753624,"React, TypeScript, CSS",0,Full-Time,Security
+BI Developer,Google,Noida,2242448,"Power BI, SQL, DAX",8,Full-Time,Security
+Cloud Engineer,Wipro,Delhi,3083888,"AWS, Docker, Kubernetes, Linux",8,Full-Time,E-Commerce
+Data Scientist,Zoho,Pune,1352272,"Python, TensorFlow, Deep Learning",8,Full-Time,Consulting
+ML Engineer,HCL,Noida,1800945,"Python, PyTorch, Machine Learning",1,Full-Time,IT
+Frontend Developer,Infosys,Kolkata,2322356,"JavaScript, React, HTML, CSS",1,Full-Time,E-Commerce
+DevOps Engineer,TCS,Pune,1000980,"Docker, Kubernetes, AWS, Jenkins",2,Full-Time,Technology
+AI Engineer,IBM,Delhi,2693643,"Python, TensorFlow, Deep Learning",5,Full-Time,E-Commerce
+Software Engineer,Zoho,Bangalore,995165,"Python, Django, PostgreSQL",4,Full-Time,SaaS
+Business Analyst,Infosys,Delhi,2697203,"Excel, SQL, Power BI, Tableau",4,Full-Time,Consulting
+AI Engineer,TCS,Kolkata,2010469,"Python, TensorFlow, Deep Learning",8,Full-Time,E-Commerce
+Software Engineer,Flipkart,Hyderabad,931614,"Java, Spring Boot, MySQL",4,Full-Time,Security
+Cloud Engineer,Paytm,Bangalore,684708,"AWS, Docker, Kubernetes, Linux",0,Full-Time,IT
+AI Engineer,Flipkart,Pune,2106332,"Python, TensorFlow, Deep Learning",5,Full-Time,SaaS
+Data Analyst,HCL,Noida,3494820,"Python, SQL, Power BI, Excel",8,Full-Time,E-Commerce
+Frontend Developer,Cognizant,Hyderabad,1841905,"React, TypeScript, CSS",6,Full-Time,IT
+Cloud Engineer,Accenture,Bangalore,1252224,"AWS, Docker, Kubernetes, Linux",0,Full-Time,IT
+Product Analyst,Zoho,Delhi,1684080,"SQL, Python, Tableau",7,Full-Time,IT
+Cloud Engineer,Amazon,Mumbai,533425,"AWS, Docker, Kubernetes, Linux",7,Full-Time,FinTech
+Cyber Security Analyst,Accenture,Kolkata,3111866,"Network Security, SIEM, Python",4,Full-Time,FinTech
+AI Engineer,Zoho,Mumbai,2792435,"Python, TensorFlow, Deep Learning",3,Full-Time,IT
+Product Analyst,Accenture,Chennai,600286,"SQL, Python, Tableau",6,Full-Time,E-Commerce
+Data Analyst,Infosys,Mumbai,1789793,"Python, SQL, Tableau",6,Full-Time,Technology
+Business Analyst,Wipro,Delhi,751218,"Excel, SQL, Power BI, Tableau",7,Full-Time,IT
+Product Analyst,Google,Chennai,2680028,"SQL, Python, Tableau",3,Full-Time,Security
+Data Scientist,Wipro,Noida,2619917,"Python, Machine Learning, SQL, Pandas",1,Full-Time,FinTech
+ML Engineer,Capgemini,Pune,2324450,"Python, PyTorch, Machine Learning",0,Full-Time,E-Commerce
+Backend Developer,HCL,Chennai,2148162,"Python, Django, PostgreSQL",5,Full-Time,Consulting
+Backend Developer,Accenture,Pune,813261,"Node.js, MongoDB, Express",3,Full-Time,Technology
+Data Scientist,Microsoft,Chennai,2385619,"Python, TensorFlow, Deep Learning",2,Full-Time,IT
+Cloud Engineer,Microsoft,Delhi,1370889,"AWS, Docker, Kubernetes, Linux",5,Full-Time,E-Commerce
+Cloud Architect,Wipro,Delhi,879252,"AWS, GCP, Kubernetes",1,Full-Time,Technology
+Cloud Architect,Infosys,Mumbai,1122115,"AWS, GCP, Kubernetes",5,Full-Time,Consulting
+Cloud Engineer,Cognizant,Delhi,3340312,"AWS, Docker, Kubernetes, Linux",0,Full-Time,IT
+Business Analyst,HCL,Mumbai,2831839,"Excel, SQL, Power BI, Tableau",7,Full-Time,Consulting
+Data Scientist,TCS,Bangalore,1009411,"Python, Machine Learning, SQL, Pandas",2,Full-Time,Technology
+Frontend Developer,Capgemini,Hyderabad,2061286,"React, TypeScript, CSS",6,Full-Time,SaaS
+Data Scientist,Accenture,Kolkata,770415,"Python, Machine Learning, SQL, Pandas",0,Full-Time,IT
+Product Analyst,TCS,Kolkata,1013918,"SQL, Python, Tableau",5,Full-Time,Technology
+Product Analyst,Microsoft,Bangalore,2156744,"SQL, Python, Tableau",6,Full-Time,Security
+Business Analyst,Accenture,Pune,1984545,"Excel, SQL, Power BI, Tableau",2,Full-Time,E-Commerce
+AI Engineer,Oracle,Mumbai,645330,"Python, TensorFlow, Deep Learning",2,Full-Time,Consulting
+Business Analyst,TCS,Hyderabad,2509201,"Excel, SQL, Power BI, Tableau",8,Full-Time,Consulting
+Software Engineer,Capgemini,Mumbai,1336586,"Java, Spring Boot, MySQL",6,Full-Time,Consulting
+Cyber Security Analyst,IBM,Kolkata,2511942,"Network Security, SIEM, Python",5,Full-Time,FinTech
+Cloud Engineer,Cognizant,Pune,2128989,"AWS, Docker, Kubernetes, Linux",5,Full-Time,E-Commerce
+ML Engineer,Flipkart,Delhi,622907,"Python, PyTorch, Machine Learning",3,Full-Time,SaaS
+AI Engineer,Zoho,Mumbai,1999182,"Python, TensorFlow, Deep Learning",8,Full-Time,IT
+Frontend Developer,IBM,Bangalore,1617895,"JavaScript, React, HTML, CSS",3,Full-Time,FinTech
+Cloud Architect,Flipkart,Pune,1988158,"AWS, GCP, Kubernetes",6,Full-Time,Technology
+ML Engineer,Amazon,Bangalore,3426057,"Python, PyTorch, Machine Learning",5,Full-Time,FinTech
+ML Engineer,Accenture,Kolkata,2861849,"Python, PyTorch, Machine Learning",2,Full-Time,Technology
+AI Engineer,TCS,Mumbai,878566,"Python, TensorFlow, Deep Learning",0,Full-Time,IT
+Cloud Engineer,Amazon,Mumbai,502866,"AWS, Docker, Kubernetes, Linux",7,Full-Time,E-Commerce
+BI Developer,TCS,Bangalore,1857229,"Power BI, SQL, DAX",2,Full-Time,FinTech
+BI Developer,Paytm,Chennai,965234,"Power BI, SQL, DAX",2,Full-Time,E-Commerce
+BI Developer,Infosys,Chennai,2957932,"Power BI, SQL, DAX",6,Full-Time,E-Commerce
+Software Engineer,Zoho,Kolkata,2332358,"Python, Django, PostgreSQL",2,Full-Time,Technology
+BI Developer,Flipkart,Chennai,3409003,"Power BI, SQL, DAX",8,Full-Time,Security
+ML Engineer,Cognizant,Delhi,2087057,"Python, PyTorch, Machine Learning",2,Full-Time,Technology
+BI Developer,Oracle,Noida,3444436,"Power BI, SQL, DAX",0,Full-Time,Technology
+ML Engineer,Accenture,Hyderabad,3064318,"Python, PyTorch, Machine Learning",5,Full-Time,Technology
+Data Engineer,Amazon,Chennai,1498227,"Python, Spark, Hadoop, SQL",1,Full-Time,Security
+Product Analyst,Capgemini,Chennai,3473618,"SQL, Python, Tableau",1,Full-Time,IT
+Backend Developer,HCL,Hyderabad,1546650,"Python, Django, PostgreSQL",3,Full-Time,E-Commerce
+Cyber Security Analyst,TCS,Noida,505373,"Network Security, SIEM, Python",1,Full-Time,Security
+Business Analyst,Microsoft,Noida,2236522,"Excel, SQL, Power BI, Tableau",2,Full-Time,FinTech
+Business Analyst,Zoho,Mumbai,2511123,"Excel, SQL, Power BI, Tableau",1,Full-Time,Consulting
+Data Scientist,TCS,Chennai,1736936,"Python, TensorFlow, Deep Learning",0,Full-Time,IT
+Data Scientist,Flipkart,Noida,1213472,"Python, Machine Learning, SQL, Pandas",5,Full-Time,Security
+Data Scientist,Amazon,Kolkata,890509,"Python, Machine Learning, SQL, Pandas",8,Full-Time,Consulting
+DevOps Engineer,Flipkart,Noida,3047274,"Docker, Kubernetes, AWS, Jenkins",2,Full-Time,IT
+Data Scientist,Accenture,Noida,1362141,"Python, TensorFlow, Deep Learning",5,Full-Time,Security
+Backend Developer,Infosys,Bangalore,1496349,"Python, Django, PostgreSQL",4,Full-Time,FinTech
+Cloud Engineer,TCS,Chennai,1144202,"AWS, Docker, Kubernetes, Linux",7,Full-Time,Consulting
+Data Scientist,Capgemini,Kolkata,3276714,"Python, Machine Learning, SQL, Pandas",4,Full-Time,IT
+Data Analyst,Capgemini,Delhi,1216522,"Python, SQL, Power BI, Excel",3,Full-Time,Consulting
+Cloud Architect,Zoho,Noida,1793327,"AWS, GCP, Kubernetes",1,Full-Time,Consulting
+Product Analyst,Capgemini,Noida,882255,"SQL, Python, Tableau",4,Full-Time,E-Commerce
+Product Analyst,Wipro,Kolkata,2049382,"SQL, Python, Tableau",6,Full-Time,E-Commerce
+AI Engineer,Accenture,Delhi,1604783,"Python, TensorFlow, Deep Learning",7,Full-Time,Technology
+Cyber Security Analyst,Capgemini,Chennai,859482,"Network Security, SIEM, Python",1,Full-Time,SaaS
+ML Engineer,TCS,Noida,2821974,"Python, PyTorch, Machine Learning",3,Full-Time,FinTech
+DevOps Engineer,Flipkart,Mumbai,2902137,"Docker, Kubernetes, AWS, Jenkins",7,Full-Time,E-Commerce
+Data Scientist,TCS,Pune,3496015,"Python, Machine Learning, SQL, Pandas",6,Full-Time,SaaS
+AI Engineer,Accenture,Mumbai,1201139,"Python, TensorFlow, Deep Learning",2,Full-Time,IT
+Business Analyst,Google,Mumbai,3365235,"Excel, SQL, Power BI, Tableau",1,Full-Time,SaaS
+ML Engineer,Flipkart,Hyderabad,1841126,"Python, PyTorch, Machine Learning",4,Full-Time,Consulting
+Cloud Engineer,Amazon,Delhi,2815483,"AWS, Docker, Kubernetes, Linux",6,Full-Time,SaaS
+Data Analyst,Infosys,Noida,2259904,"Python, SQL, Power BI, Excel",8,Full-Time,Technology
+ML Engineer,Oracle,Hyderabad,943064,"Python, PyTorch, Machine Learning",1,Full-Time,SaaS
+Cloud Engineer,Cognizant,Noida,2223397,"AWS, Docker, Kubernetes, Linux",5,Full-Time,FinTech
+ML Engineer,Wipro,Delhi,657142,"Python, PyTorch, Machine Learning",7,Full-Time,Technology
+ML Engineer,Google,Chennai,662665,"Python, PyTorch, Machine Learning",6,Full-Time,IT
+BI Developer,Flipkart,Chennai,1626524,"Power BI, SQL, DAX",7,Full-Time,E-Commerce
+Cloud Architect,Cognizant,Kolkata,1804215,"AWS, GCP, Kubernetes",4,Full-Time,SaaS
+Frontend Developer,HCL,Kolkata,1760306,"React, TypeScript, CSS",2,Full-Time,E-Commerce
+BI Developer,Capgemini,Hyderabad,3037466,"Power BI, SQL, DAX",6,Full-Time,Consulting
+Frontend Developer,Zoho,Chennai,2531973,"JavaScript, React, HTML, CSS",6,Full-Time,FinTech
+Cyber Security Analyst,Cognizant,Noida,775217,"Network Security, SIEM, Python",2,Full-Time,SaaS
+Cloud Architect,TCS,Pune,2885184,"AWS, GCP, Kubernetes",8,Full-Time,SaaS
+Frontend Developer,TCS,Kolkata,1546438,"JavaScript, React, HTML, CSS",0,Full-Time,E-Commerce
+BI Developer,Amazon,Kolkata,1649144,"Power BI, SQL, DAX",3,Full-Time,Security
+Product Analyst,TCS,Mumbai,3357052,"SQL, Python, Tableau",1,Full-Time,Consulting
+ML Engineer,Paytm,Kolkata,1244839,"Python, PyTorch, Machine Learning",7,Full-Time,E-Commerce
+Software Engineer,Infosys,Delhi,3389248,"Java, Spring Boot, MySQL",4,Full-Time,Consulting
+Data Analyst,Zoho,Mumbai,2900224,"Python, SQL, Power BI, Excel",2,Full-Time,Security
+Frontend Developer,Capgemini,Noida,1628618,"JavaScript, React, HTML, CSS",3,Full-Time,SaaS
+Cyber Security Analyst,Flipkart,Pune,2488507,"Network Security, SIEM, Python",0,Full-Time,FinTech
+Cyber Security Analyst,Cognizant,Delhi,1438559,"Network Security, SIEM, Python",0,Full-Time,Consulting
+Product Analyst,Microsoft,Delhi,1962592,"SQL, Python, Tableau",6,Full-Time,Consulting
+Backend Developer,Google,Hyderabad,3115593,"Node.js, MongoDB, Express",8,Full-Time,FinTech
+DevOps Engineer,Capgemini,Delhi,2854921,"Docker, Kubernetes, AWS, Jenkins",5,Full-Time,Security
+Data Scientist,Amazon,Delhi,767752,"Python, TensorFlow, Deep Learning",7,Full-Time,SaaS
+Backend Developer,HCL,Delhi,3251965,"Node.js, MongoDB, Express",4,Full-Time,Technology
+Cloud Engineer,Zoho,Noida,738130,"AWS, Docker, Kubernetes, Linux",3,Full-Time,Security
+Software Engineer,Microsoft,Delhi,3248949,"Python, Django, PostgreSQL",0,Full-Time,Consulting
+Business Analyst,Oracle,Mumbai,648138,"Excel, SQL, Power BI, Tableau",6,Full-Time,Security
+BI Developer,IBM,Kolkata,3378626,"Power BI, SQL, DAX",3,Full-Time,FinTech
+Backend Developer,Flipkart,Pune,3258235,"Python, Django, PostgreSQL",2,Full-Time,IT
+AI Engineer,HCL,Pune,1584864,"Python, TensorFlow, Deep Learning",2,Full-Time,Security
+Data Scientist,Accenture,Delhi,1990166,"Python, TensorFlow, Deep Learning",3,Full-Time,SaaS
+Product Analyst,Cognizant,Delhi,2058949,"SQL, Python, Tableau",5,Full-Time,SaaS
+Data Scientist,Paytm,Hyderabad,725137,"Python, TensorFlow, Deep Learning",7,Full-Time,Technology
+Cloud Engineer,Google,Delhi,3355053,"AWS, Docker, Kubernetes, Linux",1,Full-Time,IT
+Cloud Architect,Accenture,Chennai,1076151,"AWS, GCP, Kubernetes",2,Full-Time,FinTech
+Product Analyst,Amazon,Pune,1100725,"SQL, Python, Tableau",7,Full-Time,Consulting
+Data Engineer,Capgemini,Bangalore,1814553,"Python, Spark, Hadoop, SQL",2,Full-Time,Consulting
+Backend Developer,Oracle,Pune,1207183,"Python, Django, PostgreSQL",3,Full-Time,SaaS
+Cyber Security Analyst,Oracle,Noida,1042767,"Network Security, SIEM, Python",1,Full-Time,Consulting
+Business Analyst,TCS,Bangalore,2107745,"Excel, SQL, Power BI, Tableau",7,Full-Time,Security
+Data Engineer,Zoho,Mumbai,1851459,"Python, Spark, Hadoop, SQL",0,Full-Time,Security
+Data Analyst,HCL,Chennai,1449027,"SQL, Tableau, Excel",3,Full-Time,Technology
+Data Scientist,Oracle,Delhi,2611146,"Python, Machine Learning, SQL, Pandas",6,Full-Time,IT
+Cloud Architect,Cognizant,Kolkata,1750750,"AWS, GCP, Kubernetes",0,Full-Time,Consulting
+Product Analyst,Flipkart,Kolkata,1937525,"SQL, Python, Tableau",2,Full-Time,SaaS
+Frontend Developer,TCS,Mumbai,2191947,"JavaScript, React, HTML, CSS",2,Full-Time,Security
+Software Engineer,Oracle,Pune,591910,"Java, Spring Boot, MySQL",3,Full-Time,E-Commerce
+BI Developer,Flipkart,Delhi,2073671,"Power BI, SQL, DAX",0,Full-Time,FinTech
+Data Analyst,Paytm,Bangalore,3241261,"Python, SQL, Power BI, Excel",1,Full-Time,Security
+Data Scientist,Google,Hyderabad,2363589,"Python, TensorFlow, Deep Learning",6,Full-Time,Consulting
+BI Developer,HCL,Bangalore,1361908,"Power BI, SQL, DAX",2,Full-Time,Consulting
+DevOps Engineer,IBM,Delhi,3278654,"Docker, Kubernetes, AWS, Jenkins",1,Full-Time,Consulting
+Cloud Architect,HCL,Hyderabad,2645742,"AWS, GCP, Kubernetes",1,Full-Time,IT
+Cyber Security Analyst,Accenture,Mumbai,2587668,"Network Security, SIEM, Python",1,Full-Time,SaaS
+Cloud Engineer,HCL,Noida,2001232,"AWS, Docker, Kubernetes, Linux",3,Full-Time,Technology
+Data Analyst,Flipkart,Mumbai,2581862,"Python, SQL, Tableau",8,Full-Time,Consulting
+Data Engineer,TCS,Hyderabad,511484,"Python, Spark, Hadoop, SQL",3,Full-Time,SaaS
+ML Engineer,Infosys,Hyderabad,1125557,"Python, PyTorch, Machine Learning",7,Full-Time,E-Commerce
+DevOps Engineer,Cognizant,Delhi,2415753,"Docker, Kubernetes, AWS, Jenkins",3,Full-Time,IT
+Data Scientist,Paytm,Delhi,665442,"Python, TensorFlow, Deep Learning",2,Full-Time,SaaS
+DevOps Engineer,HCL,Hyderabad,2286753,"Docker, Kubernetes, AWS, Jenkins",5,Full-Time,SaaS
+Cyber Security Analyst,Paytm,Pune,540568,"Network Security, SIEM, Python",0,Full-Time,E-Commerce
+Data Engineer,Cognizant,Hyderabad,3108047,"AWS, Spark, ETL, SQL",7,Full-Time,SaaS
+Data Engineer,Google,Noida,977446,"AWS, Spark, ETL, SQL",2,Full-Time,E-Commerce
+Cloud Architect,Paytm,Kolkata,3393660,"AWS, GCP, Kubernetes",6,Full-Time,Security
+Product Analyst,Wipro,Bangalore,974193,"SQL, Python, Tableau",2,Full-Time,IT
+Business Analyst,Capgemini,Kolkata,2886321,"Excel, SQL, Power BI, Tableau",7,Full-Time,FinTech
+Business Analyst,TCS,Pune,3064223,"Excel, SQL, Power BI, Tableau",5,Full-Time,Consulting
+Data Scientist,TCS,Hyderabad,2348378,"Python, TensorFlow, Deep Learning",6,Full-Time,Security
+Data Engineer,Paytm,Mumbai,3455173,"AWS, Spark, ETL, SQL",0,Full-Time,FinTech
+Cloud Engineer,Capgemini,Mumbai,2315495,"AWS, Docker, Kubernetes, Linux",1,Full-Time,E-Commerce
+DevOps Engineer,Paytm,Bangalore,1123501,"Docker, Kubernetes, AWS, Jenkins",6,Full-Time,Security
+Product Analyst,Paytm,Kolkata,2620504,"SQL, Python, Tableau",2,Full-Time,SaaS
+Software Engineer,Amazon,Mumbai,2562121,"Python, Django, PostgreSQL",1,Full-Time,E-Commerce
+Data Analyst,IBM,Noida,1434098,"SQL, Tableau, Excel",8,Full-Time,SaaS
+Frontend Developer,Microsoft,Kolkata,2425582,"JavaScript, React, HTML, CSS",1,Full-Time,SaaS
+AI Engineer,Infosys,Kolkata,1825658,"Python, TensorFlow, Deep Learning",7,Full-Time,IT
+Business Analyst,IBM,Bangalore,650290,"Excel, SQL, Power BI, Tableau",6,Full-Time,SaaS
+ML Engineer,IBM,Mumbai,2632123,"Python, PyTorch, Machine Learning",4,Full-Time,E-Commerce
+Data Engineer,Paytm,Kolkata,1434986,"AWS, Spark, ETL, SQL",0,Full-Time,FinTech
+Cyber Security Analyst,Amazon,Kolkata,3256359,"Network Security, SIEM, Python",7,Full-Time,IT
+Cyber Security Analyst,Amazon,Chennai,509214,"Network Security, SIEM, Python",3,Full-Time,FinTech
+Cloud Engineer,Infosys,Bangalore,3444804,"AWS, Docker, Kubernetes, Linux",5,Full-Time,Consulting
+Software Engineer,Cognizant,Mumbai,948629,"Java, Spring Boot, MySQL",6,Full-Time,IT
+Product Analyst,Microsoft,Mumbai,1404247,"SQL, Python, Tableau",6,Full-Time,IT
+Cyber Security Analyst,Flipkart,Hyderabad,695036,"Network Security, SIEM, Python",6,Full-Time,Consulting
+DevOps Engineer,Microsoft,Bangalore,1064704,"Docker, Kubernetes, AWS, Jenkins",8,Full-Time,FinTech
+Product Analyst,Microsoft,Pune,2954174,"SQL, Python, Tableau",6,Full-Time,Security
+Cloud Architect,Google,Chennai,934336,"AWS, GCP, Kubernetes",2,Full-Time,Consulting
+ML Engineer,Google,Chennai,1647544,"Python, PyTorch, Machine Learning",3,Full-Time,Consulting
+Cyber Security Analyst,Google,Delhi,1079568,"Network Security, SIEM, Python",2,Full-Time,Security
+BI Developer,Accenture,Mumbai,3153246,"Power BI, SQL, DAX",8,Full-Time,FinTech
+BI Developer,Amazon,Pune,3379856,"Power BI, SQL, DAX",4,Full-Time,FinTech
+Cloud Engineer,Infosys,Chennai,3479435,"AWS, Docker, Kubernetes, Linux",5,Full-Time,FinTech
+ML Engineer,HCL,Delhi,3327982,"Python, PyTorch, Machine Learning",6,Full-Time,SaaS
+Data Analyst,TCS,Noida,946569,"Python, SQL, Power BI, Excel",8,Full-Time,IT
+DevOps Engineer,Cognizant,Pune,1338451,"Docker, Kubernetes, AWS, Jenkins",0,Full-Time,Security
+Backend Developer,HCL,Delhi,760184,"Node.js, MongoDB, Express",2,Full-Time,SaaS
+Cloud Engineer,Paytm,Kolkata,2004423,"AWS, Docker, Kubernetes, Linux",0,Full-Time,FinTech
+Cloud Architect,HCL,Noida,1440813,"AWS, GCP, Kubernetes",8,Full-Time,FinTech
+Cyber Security Analyst,Capgemini,Bangalore,3406384,"Network Security, SIEM, Python",4,Full-Time,Consulting
+Business Analyst,TCS,Bangalore,2815778,"Excel, SQL, Power BI, Tableau",5,Full-Time,Technology
+ML Engineer,Flipkart,Chennai,1446018,"Python, PyTorch, Machine Learning",7,Full-Time,SaaS
+BI Developer,Microsoft,Pune,1733870,"Power BI, SQL, DAX",3,Full-Time,Technology
+Software Engineer,Google,Bangalore,1000606,"Python, Django, PostgreSQL",8,Full-Time,E-Commerce
+Cloud Engineer,Wipro,Delhi,1045538,"AWS, Docker, Kubernetes, Linux",4,Full-Time,E-Commerce
+AI Engineer,Wipro,Chennai,667522,"Python, TensorFlow, Deep Learning",2,Full-Time,SaaS
+Product Analyst,Zoho,Chennai,2557519,"SQL, Python, Tableau",4,Full-Time,SaaS
+BI Developer,Accenture,Pune,2703666,"Power BI, SQL, DAX",5,Full-Time,SaaS
+Cloud Engineer,IBM,Noida,2244542,"AWS, Docker, Kubernetes, Linux",2,Full-Time,E-Commerce
+Frontend Developer,Amazon,Chennai,3282226,"React, TypeScript, CSS",3,Full-Time,E-Commerce
+Frontend Developer,IBM,Bangalore,2491695,"JavaScript, React, HTML, CSS",8,Full-Time,Security
+Data Engineer,Flipkart,Mumbai,1508092,"Python, Spark, Hadoop, SQL",7,Full-Time,Security
+Product Analyst,Flipkart,Hyderabad,2099592,"SQL, Python, Tableau",5,Full-Time,E-Commerce
+Cloud Engineer,Flipkart,Chennai,603623,"AWS, Docker, Kubernetes, Linux",4,Full-Time,Consulting
+Data Analyst,Accenture,Chennai,3232707,"Python, SQL, Tableau",4,Full-Time,IT
+Data Scientist,IBM,Bangalore,2756429,"Python, Machine Learning, SQL, Pandas",2,Full-Time,Technology
+DevOps Engineer,Google,Hyderabad,3374797,"Docker, Kubernetes, AWS, Jenkins",3,Full-Time,FinTech
+Cloud Architect,Paytm,Hyderabad,3211874,"AWS, GCP, Kubernetes",6,Full-Time,IT
+AI Engineer,Infosys,Hyderabad,658906,"Python, TensorFlow, Deep Learning",5,Full-Time,Technology
+Cyber Security Analyst,Infosys,Mumbai,2840774,"Network Security, SIEM, Python",4,Full-Time,Consulting
+Business Analyst,Google,Noida,3143322,"Excel, SQL, Power BI, Tableau",7,Full-Time,IT
+Business Analyst,TCS,Hyderabad,2743257,"Excel, SQL, Power BI, Tableau",1,Full-Time,Security
+Cloud Architect,Flipkart,Hyderabad,2000303,"AWS, GCP, Kubernetes",1,Full-Time,SaaS
+DevOps Engineer,Infosys,Delhi,3044121,"Docker, Kubernetes, AWS, Jenkins",4,Full-Time,Consulting
+Business Analyst,Wipro,Mumbai,2488048,"Excel, SQL, Power BI, Tableau",0,Full-Time,Security
+Business Analyst,Capgemini,Pune,1737229,"Excel, SQL, Power BI, Tableau",8,Full-Time,Security
+Product Analyst,IBM,Pune,546767,"SQL, Python, Tableau",5,Full-Time,IT
+Data Analyst,IBM,Hyderabad,2752978,"SQL, Tableau, Excel",6,Full-Time,Technology
+BI Developer,Google,Pune,1388089,"Power BI, SQL, DAX",5,Full-Time,Technology
+Frontend Developer,Infosys,Pune,1315063,"JavaScript, React, HTML, CSS",4,Full-Time,SaaS
+Cyber Security Analyst,Capgemini,Hyderabad,2434686,"Network Security, SIEM, Python",8,Full-Time,Security
+Data Scientist,Accenture,Kolkata,911890,"Python, TensorFlow, Deep Learning",4,Full-Time,E-Commerce
+Software Engineer,Cognizant,Hyderabad,919619,"Java, Spring Boot, MySQL",3,Full-Time,E-Commerce
+AI Engineer,Oracle,Delhi,1877183,"Python, TensorFlow, Deep Learning",7,Full-Time,FinTech
+ML Engineer,Google,Pune,1826797,"Python, PyTorch, Machine Learning",5,Full-Time,E-Commerce
+Frontend Developer,HCL,Noida,3487179,"React, TypeScript, CSS",3,Full-Time,SaaS
+Data Engineer,HCL,Chennai,3350365,"AWS, Spark, ETL, SQL",2,Full-Time,Consulting
+AI Engineer,Microsoft,Hyderabad,1781241,"Python, TensorFlow, Deep Learning",5,Full-Time,Security
+ML Engineer,Paytm,Pune,1676988,"Python, PyTorch, Machine Learning",1,Full-Time,E-Commerce
+BI Developer,Flipkart,Bangalore,816250,"Power BI, SQL, DAX",1,Full-Time,SaaS
+ML Engineer,Accenture,Bangalore,2974791,"Python, PyTorch, Machine Learning",6,Full-Time,FinTech
+Product Analyst,Capgemini,Pune,2480147,"SQL, Python, Tableau",8,Full-Time,Consulting
+Frontend Developer,Microsoft,Hyderabad,1061538,"React, TypeScript, CSS",4,Full-Time,E-Commerce
+Cloud Engineer,Accenture,Pune,3279475,"AWS, Docker, Kubernetes, Linux",0,Full-Time,Consulting
+Software Engineer,Oracle,Pune,2875474,"Python, Django, PostgreSQL",2,Full-Time,E-Commerce
+Data Analyst,Accenture,Hyderabad,2545319,"SQL, Tableau, Excel",3,Full-Time,E-Commerce
+Frontend Developer,Accenture,Chennai,3304251,"React, TypeScript, CSS",0,Full-Time,Consulting
+Product Analyst,TCS,Chennai,694772,"SQL, Python, Tableau",7,Full-Time,Security
+Cloud Engineer,Oracle,Pune,1604427,"AWS, Docker, Kubernetes, Linux",4,Full-Time,Security
+Business Analyst,Capgemini,Hyderabad,2964903,"Excel, SQL, Power BI, Tableau",5,Full-Time,Consulting
+Product Analyst,Google,Chennai,2665820,"SQL, Python, Tableau",3,Full-Time,Consulting
+Cyber Security Analyst,TCS,Pune,3034244,"Network Security, SIEM, Python",7,Full-Time,Technology
+Frontend Developer,Capgemini,Delhi,2658142,"JavaScript, React, HTML, CSS",1,Full-Time,Technology
+Software Engineer,Oracle,Hyderabad,2019273,"Java, Spring Boot, MySQL",2,Full-Time,Consulting
+Cyber Security Analyst,Microsoft,Kolkata,975376,"Network Security, SIEM, Python",5,Full-Time,Technology
+ML Engineer,Paytm,Noida,3214801,"Python, PyTorch, Machine Learning",2,Full-Time,Technology
+Data Analyst,Oracle,Pune,2905376,"Python, SQL, Power BI, Excel",2,Full-Time,Security
+Cloud Engineer,Wipro,Bangalore,2900271,"AWS, Docker, Kubernetes, Linux",0,Full-Time,E-Commerce
+Product Analyst,Google,Bangalore,2666948,"SQL, Python, Tableau",2,Full-Time,IT
+Frontend Developer,Microsoft,Kolkata,3043953,"JavaScript, React, HTML, CSS",7,Full-Time,Technology
+Cloud Architect,Wipro,Pune,3020100,"AWS, GCP, Kubernetes",6,Full-Time,Technology
+BI Developer,Oracle,Hyderabad,2401991,"Power BI, SQL, DAX",5,Full-Time,Consulting
+Business Analyst,TCS,Mumbai,955376,"Excel, SQL, Power BI, Tableau",2,Full-Time,SaaS
+Software Engineer,Microsoft,Bangalore,1244162,"Java, Spring Boot, MySQL",1,Full-Time,IT
+AI Engineer,IBM,Bangalore,3031156,"Python, TensorFlow, Deep Learning",2,Full-Time,FinTech
+Business Analyst,HCL,Noida,682193,"Excel, SQL, Power BI, Tableau",5,Full-Time,SaaS
+AI Engineer,Oracle,Hyderabad,1970178,"Python, TensorFlow, Deep Learning",6,Full-Time,Technology
+Backend Developer,Flipkart,Hyderabad,1475229,"Python, Django, PostgreSQL",7,Full-Time,FinTech
+Product Analyst,Cognizant,Mumbai,2213988,"SQL, Python, Tableau",8,Full-Time,Security
+BI Developer,IBM,Hyderabad,2924253,"Power BI, SQL, DAX",0,Full-Time,Consulting
+DevOps Engineer,Zoho,Chennai,3384702,"Docker, Kubernetes, AWS, Jenkins",3,Full-Time,E-Commerce
+Data Scientist,Capgemini,Delhi,2287073,"Python, TensorFlow, Deep Learning",2,Full-Time,SaaS
+Cloud Engineer,Amazon,Delhi,2868398,"AWS, Docker, Kubernetes, Linux",6,Full-Time,SaaS
+Frontend Developer,Zoho,Kolkata,2815695,"JavaScript, React, HTML, CSS",6,Full-Time,E-Commerce
+Cloud Engineer,Cognizant,Delhi,2529037,"AWS, Docker, Kubernetes, Linux",8,Full-Time,SaaS
+BI Developer,Paytm,Hyderabad,1079101,"Power BI, SQL, DAX",6,Full-Time,Consulting
+Cyber Security Analyst,Accenture,Noida,920599,"Network Security, SIEM, Python",2,Full-Time,SaaS
+Cloud Engineer,Google,Bangalore,1174184,"AWS, Docker, Kubernetes, Linux",0,Full-Time,SaaS
+Software Engineer,Google,Hyderabad,3017611,"Java, Spring Boot, MySQL",7,Full-Time,E-Commerce
+Frontend Developer,Oracle,Bangalore,835710,"React, TypeScript, CSS",5,Full-Time,Consulting
+ML Engineer,HCL,Bangalore,1701539,"Python, PyTorch, Machine Learning",8,Full-Time,Security
+AI Engineer,Accenture,Delhi,544922,"Python, TensorFlow, Deep Learning",7,Full-Time,IT
+Cyber Security Analyst,HCL,Mumbai,2663479,"Network Security, SIEM, Python",8,Full-Time,Security
+Data Analyst,Capgemini,Bangalore,1503515,"Python, SQL, Power BI, Excel",5,Full-Time,IT
+Backend Developer,Capgemini,Noida,1981124,"Python, Django, PostgreSQL",6,Full-Time,FinTech
+Frontend Developer,HCL,Hyderabad,564451,"JavaScript, React, HTML, CSS",8,Full-Time,FinTech
+Backend Developer,Amazon,Chennai,2944995,"Python, Django, PostgreSQL",8,Full-Time,Technology
+ML Engineer,Flipkart,Noida,2407397,"Python, PyTorch, Machine Learning",3,Full-Time,E-Commerce
+Software Engineer,Infosys,Hyderabad,2623316,"Python, Django, PostgreSQL",6,Full-Time,E-Commerce
+Data Scientist,Flipkart,Delhi,1580844,"Python, TensorFlow, Deep Learning",8,Full-Time,Consulting
+ML Engineer,Zoho,Chennai,1520361,"Python, PyTorch, Machine Learning",7,Full-Time,Security
+AI Engineer,Infosys,Delhi,2521529,"Python, TensorFlow, Deep Learning",0,Full-Time,Consulting
+DevOps Engineer,HCL,Mumbai,3339178,"Docker, Kubernetes, AWS, Jenkins",3,Full-Time,Consulting
+Data Engineer,TCS,Delhi,2746686,"Python, Spark, Hadoop, SQL",8,Full-Time,E-Commerce
+Data Scientist,HCL,Chennai,3325693,"Python, Machine Learning, SQL, Pandas",6,Full-Time,FinTech
+Product Analyst,Amazon,Chennai,2498818,"SQL, Python, Tableau",2,Full-Time,FinTech
+Backend Developer,Flipkart,Mumbai,3365159,"Python, Django, PostgreSQL",2,Full-Time,Security
+Frontend Developer,Paytm,Delhi,1515258,"JavaScript, React, HTML, CSS",3,Full-Time,Technology
+Frontend Developer,Amazon,Pune,3094583,"JavaScript, React, HTML, CSS",3,Full-Time,IT
+Product Analyst,Capgemini,Kolkata,3334561,"SQL, Python, Tableau",1,Full-Time,SaaS
+Cloud Architect,Paytm,Kolkata,677264,"AWS, GCP, Kubernetes",8,Full-Time,FinTech
+Data Engineer,Paytm,Delhi,2909708,"AWS, Spark, ETL, SQL",7,Full-Time,Technology
+Cyber Security Analyst,Google,Mumbai,1675523,"Network Security, SIEM, Python",8,Full-Time,IT
+Cloud Engineer,IBM,Bangalore,2506219,"AWS, Docker, Kubernetes, Linux",6,Full-Time,Consulting
+Cloud Architect,Infosys,Kolkata,2417619,"AWS, GCP, Kubernetes",2,Full-Time,Security
+Data Analyst,Accenture,Noida,3327393,"Python, SQL, Tableau",0,Full-Time,IT
+Data Engineer,Paytm,Delhi,3070177,"Python, Spark, Hadoop, SQL",5,Full-Time,FinTech
+Backend Developer,Microsoft,Chennai,1629980,"Python, Django, PostgreSQL",3,Full-Time,Technology
+AI Engineer,Google,Chennai,1383037,"Python, TensorFlow, Deep Learning",6,Full-Time,SaaS
+Business Analyst,Wipro,Pune,2390494,"Excel, SQL, Power BI, Tableau",4,Full-Time,SaaS
+Data Scientist,IBM,Noida,1489038,"Python, TensorFlow, Deep Learning",4,Full-Time,Technology
+Software Engineer,Zoho,Bangalore,2483851,"Java, Spring Boot, MySQL",2,Full-Time,Consulting
+AI Engineer,IBM,Chennai,3145146,"Python, TensorFlow, Deep Learning",2,Full-Time,E-Commerce
+Backend Developer,TCS,Noida,2881670,"Node.js, MongoDB, Express",8,Full-Time,Security
+Software Engineer,Paytm,Delhi,1403735,"Python, Django, PostgreSQL",0,Full-Time,SaaS
+DevOps Engineer,HCL,Chennai,2386827,"Docker, Kubernetes, AWS, Jenkins",1,Full-Time,E-Commerce
+Data Engineer,Flipkart,Delhi,2838288,"AWS, Spark, ETL, SQL",8,Full-Time,IT
+Business Analyst,Paytm,Mumbai,1972580,"Excel, SQL, Power BI, Tableau",1,Full-Time,SaaS
+Backend Developer,Capgemini,Kolkata,1863527,"Python, Django, PostgreSQL",5,Full-Time,IT
+Business Analyst,Capgemini,Pune,2445117,"Excel, SQL, Power BI, Tableau",4,Full-Time,Security
+Cyber Security Analyst,Capgemini,Noida,2269226,"Network Security, SIEM, Python",5,Full-Time,IT
+Software Engineer,Amazon,Chennai,1457215,"Python, Django, PostgreSQL",5,Full-Time,Security
+Backend Developer,Flipkart,Kolkata,1637696,"Python, Django, PostgreSQL",6,Full-Time,Security
+ML Engineer,Google,Pune,2388647,"Python, PyTorch, Machine Learning",8,Full-Time,SaaS
+Data Analyst,Capgemini,Delhi,1484097,"Python, SQL, Tableau",2,Full-Time,Security
+BI Developer,Wipro,Noida,1383200,"Power BI, SQL, DAX",1,Full-Time,IT
+Data Scientist,TCS,Bangalore,2800297,"Python, TensorFlow, Deep Learning",7,Full-Time,FinTech
+Cyber Security Analyst,Cognizant,Pune,935907,"Network Security, SIEM, Python",1,Full-Time,Security
+Product Analyst,Accenture,Mumbai,1797594,"SQL, Python, Tableau",6,Full-Time,Consulting
+DevOps Engineer,IBM,Pune,1050616,"Docker, Kubernetes, AWS, Jenkins",2,Full-Time,IT
+DevOps Engineer,Paytm,Kolkata,1863993,"Docker, Kubernetes, AWS, Jenkins",5,Full-Time,SaaS
+Cloud Engineer,Microsoft,Pune,2800765,"AWS, Docker, Kubernetes, Linux",4,Full-Time,FinTech
+ML Engineer,HCL,Noida,3146805,"Python, PyTorch, Machine Learning",7,Full-Time,E-Commerce
+AI Engineer,Zoho,Hyderabad,1452645,"Python, TensorFlow, Deep Learning",8,Full-Time,E-Commerce
+Data Engineer,Wipro,Delhi,1589709,"Python, Spark, Hadoop, SQL",6,Full-Time,IT
+Cloud Engineer,Cognizant,Kolkata,1942357,"AWS, Docker, Kubernetes, Linux",2,Full-Time,Security
+Product Analyst,Cognizant,Bangalore,2500964,"SQL, Python, Tableau",7,Full-Time,SaaS
+Backend Developer,IBM,Chennai,530274,"Node.js, MongoDB, Express",3,Full-Time,Consulting
+Product Analyst,Google,Mumbai,2333356,"SQL, Python, Tableau",8,Full-Time,Security
+BI Developer,Accenture,Delhi,2086948,"Power BI, SQL, DAX",6,Full-Time,Consulting
+DevOps Engineer,Zoho,Delhi,2666819,"Docker, Kubernetes, AWS, Jenkins",3,Full-Time,Security
+BI Developer,Google,Mumbai,1627521,"Power BI, SQL, DAX",8,Full-Time,Technology
+Software Engineer,Capgemini,Kolkata,962868,"Python, Django, PostgreSQL",4,Full-Time,E-Commerce
+BI Developer,Amazon,Bangalore,1287646,"Power BI, SQL, DAX",7,Full-Time,IT
+Cloud Engineer,Infosys,Delhi,1279878,"AWS, Docker, Kubernetes, Linux",0,Full-Time,Technology
+BI Developer,Accenture,Hyderabad,534410,"Power BI, SQL, DAX",7,Full-Time,IT
+AI Engineer,Google,Delhi,1934086,"Python, TensorFlow, Deep Learning",3,Full-Time,E-Commerce
+AI Engineer,Infosys,Pune,1885163,"Python, TensorFlow, Deep Learning",0,Full-Time,E-Commerce
+Cyber Security Analyst,IBM,Kolkata,799409,"Network Security, SIEM, Python",6,Full-Time,Technology
+Product Analyst,Paytm,Bangalore,2100451,"SQL, Python, Tableau",4,Full-Time,SaaS
+BI Developer,Zoho,Kolkata,2113959,"Power BI, SQL, DAX",3,Full-Time,Security
+Data Analyst,HCL,Hyderabad,2432880,"Python, SQL, Tableau",3,Full-Time,Security
+Frontend Developer,Capgemini,Delhi,2132099,"React, TypeScript, CSS",7,Full-Time,Technology
+DevOps Engineer,IBM,Hyderabad,2805105,"Docker, Kubernetes, AWS, Jenkins",0,Full-Time,Consulting
+DevOps Engineer,Amazon,Bangalore,1333507,"Docker, Kubernetes, AWS, Jenkins",4,Full-Time,IT
+Frontend Developer,TCS,Pune,1861108,"React, TypeScript, CSS",6,Full-Time,FinTech
+Data Scientist,TCS,Bangalore,1519590,"Python, TensorFlow, Deep Learning",6,Full-Time,Security
+ML Engineer,Zoho,Hyderabad,2057758,"Python, PyTorch, Machine Learning",2,Full-Time,Technology
+AI Engineer,Oracle,Chennai,3377060,"Python, TensorFlow, Deep Learning",1,Full-Time,IT
+Data Engineer,IBM,Hyderabad,3441583,"Python, Spark, Hadoop, SQL",2,Full-Time,Consulting
+Frontend Developer,Zoho,Chennai,2841891,"React, TypeScript, CSS",5,Full-Time,Security
+Frontend Developer,Google,Chennai,3390923,"JavaScript, React, HTML, CSS",0,Full-Time,E-Commerce
+Product Analyst,HCL,Kolkata,2535504,"SQL, Python, Tableau",0,Full-Time,FinTech
+BI Developer,Oracle,Pune,1295977,"Power BI, SQL, DAX",7,Full-Time,E-Commerce
+BI Developer,Paytm,Pune,1654794,"Power BI, SQL, DAX",7,Full-Time,FinTech
+Software Engineer,Paytm,Delhi,1740141,"Python, Django, PostgreSQL",7,Full-Time,Consulting
+Data Analyst,HCL,Pune,2089823,"Python, SQL, Power BI, Excel",8,Full-Time,FinTech
+Cloud Architect,Accenture,Chennai,3101296,"AWS, GCP, Kubernetes",5,Full-Time,Security
+Cloud Engineer,IBM,Kolkata,1296370,"AWS, Docker, Kubernetes, Linux",6,Full-Time,FinTech
+Backend Developer,Capgemini,Chennai,2218844,"Node.js, MongoDB, Express",5,Full-Time,IT
+Cloud Engineer,Paytm,Pune,683615,"AWS, Docker, Kubernetes, Linux",1,Full-Time,SaaS
+Data Analyst,Microsoft,Mumbai,949021,"Python, SQL, Power BI, Excel",3,Full-Time,IT
+ML Engineer,Microsoft,Delhi,3259521,"Python, PyTorch, Machine Learning",6,Full-Time,E-Commerce
+Frontend Developer,Flipkart,Mumbai,554887,"React, TypeScript, CSS",1,Full-Time,SaaS
+Data Scientist,TCS,Chennai,3179810,"Python, TensorFlow, Deep Learning",7,Full-Time,SaaS
+Data Engineer,Cognizant,Bangalore,3087605,"Python, Spark, Hadoop, SQL",0,Full-Time,SaaS
+Backend Developer,IBM,Hyderabad,1405550,"Node.js, MongoDB, Express",1,Full-Time,Security
+Frontend Developer,Accenture,Mumbai,2116195,"JavaScript, React, HTML, CSS",8,Full-Time,FinTech
+DevOps Engineer,HCL,Noida,2842197,"Docker, Kubernetes, AWS, Jenkins",2,Full-Time,SaaS
+DevOps Engineer,Microsoft,Noida,3329026,"Docker, Kubernetes, AWS, Jenkins",5,Full-Time,Technology
+Cyber Security Analyst,Google,Chennai,2806722,"Network Security, SIEM, Python",2,Full-Time,FinTech
+ML Engineer,Flipkart,Chennai,1977754,"Python, PyTorch, Machine Learning",7,Full-Time,SaaS
+Data Engineer,Google,Chennai,3156004,"Python, Spark, Hadoop, SQL",6,Full-Time,FinTech
+Cloud Engineer,Zoho,Delhi,2073128,"AWS, Docker, Kubernetes, Linux",3,Full-Time,Consulting
+AI Engineer,HCL,Bangalore,500820,"Python, TensorFlow, Deep Learning",6,Full-Time,FinTech
+Data Analyst,Flipkart,Delhi,1066590,"Python, SQL, Power BI, Excel",8,Full-Time,E-Commerce
+Frontend Developer,TCS,Delhi,1820805,"JavaScript, React, HTML, CSS",3,Full-Time,IT
+Data Analyst,Wipro,Pune,1991728,"SQL, Tableau, Excel",7,Full-Time,E-Commerce
+Product Analyst,Cognizant,Delhi,1477248,"SQL, Python, Tableau",3,Full-Time,FinTech
+Business Analyst,HCL,Chennai,823806,"Excel, SQL, Power BI, Tableau",3,Full-Time,Technology
+AI Engineer,Capgemini,Delhi,2996580,"Python, TensorFlow, Deep Learning",1,Full-Time,Security
+Cyber Security Analyst,Zoho,Bangalore,829158,"Network Security, SIEM, Python",6,Full-Time,E-Commerce
+Product Analyst,Flipkart,Hyderabad,2247018,"SQL, Python, Tableau",6,Full-Time,Security
+DevOps Engineer,Zoho,Noida,3158715,"Docker, Kubernetes, AWS, Jenkins",0,Full-Time,E-Commerce
+Cloud Engineer,IBM,Pune,1839310,"AWS, Docker, Kubernetes, Linux",0,Full-Time,FinTech
+BI Developer,TCS,Noida,1142556,"Power BI, SQL, DAX",3,Full-Time,SaaS
+ML Engineer,Accenture,Noida,877835,"Python, PyTorch, Machine Learning",8,Full-Time,SaaS
+Business Analyst,Amazon,Hyderabad,1054441,"Excel, SQL, Power BI, Tableau",2,Full-Time,FinTech
+BI Developer,Google,Delhi,2799117,"Power BI, SQL, DAX",0,Full-Time,Consulting
+Cloud Engineer,Wipro,Pune,3427081,"AWS, Docker, Kubernetes, Linux",6,Full-Time,FinTech
+Frontend Developer,Capgemini,Mumbai,2158087,"JavaScript, React, HTML, CSS",7,Full-Time,Technology
+Data Scientist,Amazon,Hyderabad,2303826,"Python, Machine Learning, SQL, Pandas",4,Full-Time,Security
+Business Analyst,Amazon,Mumbai,2032043,"Excel, SQL, Power BI, Tableau",6,Full-Time,E-Commerce
+ML Engineer,Wipro,Chennai,1778502,"Python, PyTorch, Machine Learning",0,Full-Time,FinTech
+Software Engineer,Flipkart,Mumbai,688230,"Java, Spring Boot, MySQL",7,Full-Time,Security
+Data Engineer,Infosys,Bangalore,859931,"Python, Spark, Hadoop, SQL",2,Full-Time,FinTech
+Product Analyst,TCS,Chennai,1706638,"SQL, Python, Tableau",2,Full-Time,E-Commerce
+AI Engineer,Amazon,Mumbai,595412,"Python, TensorFlow, Deep Learning",7,Full-Time,Technology
+Cloud Engineer,IBM,Kolkata,1584890,"AWS, Docker, Kubernetes, Linux",8,Full-Time,Security
+BI Developer,Oracle,Bangalore,2079602,"Power BI, SQL, DAX",0,Full-Time,Technology
+Data Analyst,Zoho,Delhi,1341780,"Python, SQL, Power BI, Excel",4,Full-Time,Consulting
+DevOps Engineer,Google,Delhi,779331,"Docker, Kubernetes, AWS, Jenkins",0,Full-Time,SaaS
+Data Scientist,Paytm,Noida,1726815,"Python, Machine Learning, SQL, Pandas",0,Full-Time,Consulting
+Cloud Engineer,Microsoft,Hyderabad,1823118,"AWS, Docker, Kubernetes, Linux",1,Full-Time,Technology
+Cloud Engineer,Flipkart,Bangalore,2851693,"AWS, Docker, Kubernetes, Linux",7,Full-Time,Technology
+Product Analyst,Amazon,Kolkata,1778958,"SQL, Python, Tableau",8,Full-Time,Security
+Software Engineer,Capgemini,Chennai,1954500,"Python, Django, PostgreSQL",0,Full-Time,Security
+Backend Developer,Cognizant,Bangalore,2602401,"Python, Django, PostgreSQL",3,Full-Time,Consulting
+Product Analyst,Cognizant,Mumbai,2827584,"SQL, Python, Tableau",0,Full-Time,E-Commerce
+Product Analyst,Wipro,Hyderabad,3255371,"SQL, Python, Tableau",6,Full-Time,FinTech
+DevOps Engineer,Accenture,Pune,2250422,"Docker, Kubernetes, AWS, Jenkins",3,Full-Time,E-Commerce
+Product Analyst,IBM,Pune,2383952,"SQL, Python, Tableau",5,Full-Time,Security
+Software Engineer,Zoho,Mumbai,3369107,"Java, Spring Boot, MySQL",8,Full-Time,E-Commerce
+BI Developer,Google,Pune,1067290,"Power BI, SQL, DAX",8,Full-Time,E-Commerce
+Data Scientist,HCL,Hyderabad,2735402,"Python, Machine Learning, SQL, Pandas",8,Full-Time,E-Commerce
+Cloud Architect,Zoho,Chennai,623662,"AWS, GCP, Kubernetes",2,Full-Time,Consulting
+Backend Developer,Flipkart,Delhi,3171131,"Node.js, MongoDB, Express",7,Full-Time,SaaS
+Frontend Developer,Wipro,Bangalore,1051743,"React, TypeScript, CSS",1,Full-Time,FinTech
+ML Engineer,Accenture,Mumbai,3001318,"Python, PyTorch, Machine Learning",3,Full-Time,E-Commerce
+Data Scientist,IBM,Kolkata,1062400,"Python, TensorFlow, Deep Learning",7,Full-Time,Technology
+Cloud Architect,Microsoft,Pune,2561272,"AWS, GCP, Kubernetes",6,Full-Time,Technology
+Frontend Developer,Zoho,Bangalore,2213747,"React, TypeScript, CSS",0,Full-Time,Consulting
+Frontend Developer,Infosys,Pune,1357995,"React, TypeScript, CSS",3,Full-Time,SaaS
+ML Engineer,Amazon,Kolkata,3385105,"Python, PyTorch, Machine Learning",7,Full-Time,Consulting
+Business Analyst,HCL,Noida,3049843,"Excel, SQL, Power BI, Tableau",0,Full-Time,Consulting
+ML Engineer,Capgemini,Bangalore,2702976,"Python, PyTorch, Machine Learning",8,Full-Time,Consulting
+AI Engineer,IBM,Noida,1530631,"Python, TensorFlow, Deep Learning",0,Full-Time,FinTech
+Business Analyst,TCS,Mumbai,3145131,"Excel, SQL, Power BI, Tableau",8,Full-Time,Consulting
+Business Analyst,Microsoft,Pune,1699212,"Excel, SQL, Power BI, Tableau",4,Full-Time,E-Commerce
+ML Engineer,IBM,Pune,3393872,"Python, PyTorch, Machine Learning",0,Full-Time,SaaS
+DevOps Engineer,HCL,Hyderabad,879336,"Docker, Kubernetes, AWS, Jenkins",7,Full-Time,SaaS
+ML Engineer,Google,Noida,1067517,"Python, PyTorch, Machine Learning",8,Full-Time,Consulting
+Data Analyst,Oracle,Mumbai,2402874,"SQL, Tableau, Excel",2,Full-Time,IT
+Backend Developer,Capgemini,Pune,3401273,"Node.js, MongoDB, Express",5,Full-Time,IT
+Data Scientist,Amazon,Hyderabad,3159492,"Python, TensorFlow, Deep Learning",7,Full-Time,Security
+Cyber Security Analyst,Wipro,Noida,3067218,"Network Security, SIEM, Python",8,Full-Time,IT
+Cyber Security Analyst,Oracle,Pune,1905901,"Network Security, SIEM, Python",2,Full-Time,SaaS
+Software Engineer,TCS,Noida,3486543,"Python, Django, PostgreSQL",2,Full-Time,E-Commerce
+BI Developer,Capgemini,Pune,1711233,"Power BI, SQL, DAX",7,Full-Time,Technology
+Frontend Developer,Zoho,Delhi,3111207,"JavaScript, React, HTML, CSS",0,Full-Time,Consulting
+AI Engineer,Zoho,Bangalore,2779609,"Python, TensorFlow, Deep Learning",7,Full-Time,Technology
+Frontend Developer,Google,Kolkata,2403117,"JavaScript, React, HTML, CSS",7,Full-Time,FinTech
+ML Engineer,Flipkart,Delhi,1526401,"Python, PyTorch, Machine Learning",0,Full-Time,IT
+Software Engineer,Capgemini,Chennai,730954,"Java, Spring Boot, MySQL",2,Full-Time,Technology
+Cloud Architect,Oracle,Delhi,3297586,"AWS, GCP, Kubernetes",0,Full-Time,IT
+Data Analyst,Wipro,Pune,2248844,"Python, SQL, Tableau",1,Full-Time,E-Commerce
+ML Engineer,Microsoft,Chennai,1244150,"Python, PyTorch, Machine Learning",8,Full-Time,IT
+Cyber Security Analyst,Amazon,Noida,1854012,"Network Security, SIEM, Python",4,Full-Time,SaaS
+Business Analyst,Cognizant,Kolkata,772318,"Excel, SQL, Power BI, Tableau",8,Full-Time,IT
+BI Developer,IBM,Noida,1880800,"Power BI, SQL, DAX",4,Full-Time,Security
+Frontend Developer,Oracle,Hyderabad,958446,"React, TypeScript, CSS",0,Full-Time,Security
+BI Developer,Oracle,Chennai,2291192,"Power BI, SQL, DAX",4,Full-Time,FinTech
+ML Engineer,Oracle,Kolkata,1044056,"Python, PyTorch, Machine Learning",5,Full-Time,Consulting
+Cyber Security Analyst,Accenture,Delhi,3056033,"Network Security, SIEM, Python",2,Full-Time,IT
+Data Scientist,Capgemini,Hyderabad,2449871,"Python, Machine Learning, SQL, Pandas",0,Full-Time,SaaS
+ML Engineer,TCS,Chennai,2236614,"Python, PyTorch, Machine Learning",6,Full-Time,FinTech
+Cyber Security Analyst,Capgemini,Mumbai,547384,"Network Security, SIEM, Python",3,Full-Time,E-Commerce
+Cyber Security Analyst,Cognizant,Chennai,1790891,"Network Security, SIEM, Python",1,Full-Time,IT
+DevOps Engineer,Google,Bangalore,1931774,"Docker, Kubernetes, AWS, Jenkins",5,Full-Time,Technology
+Data Engineer,Microsoft,Kolkata,3320556,"Python, Spark, Hadoop, SQL",5,Full-Time,Security
+Software Engineer,Capgemini,Kolkata,1151737,"Python, Django, PostgreSQL",7,Full-Time,Consulting
+Cyber Security Analyst,Paytm,Delhi,734974,"Network Security, SIEM, Python",6,Full-Time,FinTech
+Cloud Engineer,Oracle,Chennai,1373516,"AWS, Docker, Kubernetes, Linux",0,Full-Time,IT
+Software Engineer,Amazon,Noida,630749,"Java, Spring Boot, MySQL",4,Full-Time,FinTech
+ML Engineer,Oracle,Hyderabad,1285924,"Python, PyTorch, Machine Learning",6,Full-Time,Security
+Cloud Architect,TCS,Delhi,3477284,"AWS, GCP, Kubernetes",5,Full-Time,IT
+AI Engineer,Microsoft,Delhi,2058534,"Python, TensorFlow, Deep Learning",3,Full-Time,FinTech
+Backend Developer,Amazon,Bangalore,970732,"Node.js, MongoDB, Express",2,Full-Time,IT
+AI Engineer,Zoho,Kolkata,604584,"Python, TensorFlow, Deep Learning",8,Full-Time,Technology
+Data Engineer,Cognizant,Chennai,2696254,"Python, Spark, Hadoop, SQL",7,Full-Time,SaaS
+Cloud Architect,Capgemini,Pune,2664875,"AWS, GCP, Kubernetes",1,Full-Time,Security
+Data Analyst,HCL,Hyderabad,2125662,"Python, SQL, Power BI, Excel",7,Full-Time,E-Commerce
+Product Analyst,Paytm,Hyderabad,3381706,"SQL, Python, Tableau",0,Full-Time,Consulting
+Product Analyst,IBM,Delhi,932444,"SQL, Python, Tableau",0,Full-Time,FinTech
+Cyber Security Analyst,Flipkart,Mumbai,3179534,"Network Security, SIEM, Python",4,Full-Time,Technology
+Frontend Developer,IBM,Chennai,1660352,"React, TypeScript, CSS",4,Full-Time,Security
+Data Scientist,Wipro,Delhi,1126296,"Python, Machine Learning, SQL, Pandas",4,Full-Time,IT
+ML Engineer,Infosys,Mumbai,2656126,"Python, PyTorch, Machine Learning",8,Full-Time,FinTech
+Data Engineer,HCL,Delhi,1093732,"Python, Spark, Hadoop, SQL",4,Full-Time,Technology
+Data Scientist,Flipkart,Chennai,3072210,"Python, TensorFlow, Deep Learning",4,Full-Time,IT
+Software Engineer,Flipkart,Bangalore,2474408,"Java, Spring Boot, MySQL",0,Full-Time,Consulting
+Data Analyst,Google,Pune,2288726,"Python, SQL, Tableau",1,Full-Time,FinTech
+Product Analyst,Amazon,Delhi,3085013,"SQL, Python, Tableau",7,Full-Time,SaaS
+Frontend Developer,Flipkart,Kolkata,829444,"JavaScript, React, HTML, CSS",8,Full-Time,IT
+Cloud Architect,Microsoft,Delhi,907950,"AWS, GCP, Kubernetes",7,Full-Time,Consulting
+Frontend Developer,Paytm,Delhi,1102812,"React, TypeScript, CSS",3,Full-Time,Consulting
+Software Engineer,Microsoft,Kolkata,1862146,"Java, Spring Boot, MySQL",5,Full-Time,IT
+AI Engineer,Microsoft,Kolkata,1974049,"Python, TensorFlow, Deep Learning",1,Full-Time,E-Commerce
+Cyber Security Analyst,Oracle,Pune,3035206,"Network Security, SIEM, Python",5,Full-Time,Consulting
+Cloud Architect,IBM,Hyderabad,1866796,"AWS, GCP, Kubernetes",1,Full-Time,FinTech
+AI Engineer,Google,Mumbai,2976887,"Python, TensorFlow, Deep Learning",6,Full-Time,FinTech
