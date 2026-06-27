@@ -1,29 +1,34 @@
+# -*- coding: utf-8 -*-
 """
-Maps raw Adzuna JSON (after pd.json_normalize) → app canonical schema.
+data_processor.py
+─────────────────
+Maps raw Adzuna JSON (after pd.json_normalize) → app canonical schema,
+then calls salary_estimator.enrich_salary() so every API row has a
+usable salary figure even though Adzuna India never returns salary_min /
+salary_max in individual listing objects.
 
-ROOT CAUSE OF THE API CRASH (now fixed here):
-─────────────────────────────────────────────
-The original code did:
-    salary_min = pd.to_numeric(raw.get("salary_min"), errors="coerce")
-    salary_max = pd.to_numeric(raw.get("salary_max"), errors="coerce")
-    out[COL_SALARY] = pd.concat([salary_min, salary_max], axis=1).mean(...)
+ROOT CAUSE FIXES APPLIED HERE
+──────────────────────────────
+1. pd.concat CRASH  (file: data/data_processor.py, function: standardize_adzuna_data)
+   raw.get("salary_min") returns None when the column is absent.
+   pd.to_numeric(None) returns np.float64(nan) — a scalar, not a Series.
+   pd.concat([scalar, scalar]) crashes.
+   FIX → _safe_salary_col() always returns a properly-shaped pd.Series.
 
-When salary_min / salary_max columns are ABSENT from the Adzuna response
-(common for Indian listings where salary_is_predicted = 0), raw.get()
-returns None.  pd.to_numeric(None, errors='coerce') returns the SCALAR
-np.float64(nan) — not a Series or DataFrame.  pd.concat() requires Series
-or DataFrames, so it raises:
-    TypeError: cannot concatenate object of type '<class 'numpy.float64'>'; 
-               only Series and DataFrame objs are valid
+2. LOCATION PARSING (file: data/data_processor.py, function: _state_city)
+   Adzuna India returns location.area = ["India"] (1 element, no city).
+   FIX → _state_city() handles any list length: 1, 2, or 3+ elements.
 
-FIX: _safe_salary_col() always returns a pd.Series of the correct length,
-even when the column is missing entirely from the response.
-
-LOCATION PARSING FIX:
-─────────────────────
-Adzuna India returns location.area = ["India"] (single element — no state/
-city breakdown).  The old code assumed at least 2 elements.  _state_city()
-now handles any list length gracefully.
+3. SALARY "Not Disclosed" FOR ALL API DATA (NEW FIX)
+   (file: data/data_processor.py → calls data/salary_estimator.py)
+   Adzuna India sets salary_is_predicted=0 and omits salary_min/salary_max
+   for virtually every listing.  After our _safe_salary_col() fix, those
+   rows correctly get NaN — but NaN makes every salary KPI/chart blank.
+   FIX → call enrich_salary() at the end of standardize_adzuna_data().
+   It fuzzy-matches the API job title against the bundled sample dataset
+   and fills estimated salaries so charts render properly.  A new column
+   Salary_Estimated = True marks rows that were filled so the UI can label
+   them as estimates.
 """
 
 import re
@@ -52,27 +57,16 @@ _EXP_RE = [
 
 def _safe_salary_col(raw_df: pd.DataFrame, col_name: str) -> pd.Series:
     """
-    FIX for the pd.concat crash.
-
-    Safely extracts a numeric salary column from the raw DataFrame.
-    If the column is absent (raw_df.get() returns None, which
-    pd.to_numeric() would silently convert to np.float64(nan) — a scalar
-    that breaks pd.concat), this function returns a NaN Series of the
-    correct length instead.
-
-    Args:
-        raw_df  : the json_normalized Adzuna response DataFrame
-        col_name: "salary_min" or "salary_max"
-    Returns:
-        pd.Series of float, same length as raw_df, NaN where data is missing
+    FIX 1: Safely extract a numeric salary column.
+    Returns a NaN Series of the correct length if the column is absent,
+    preventing the np.float64 scalar from reaching pd.concat().
     """
     if col_name in raw_df.columns:
         return pd.to_numeric(
             raw_df[col_name], errors="coerce"
         ).reset_index(drop=True)
 
-    # Column entirely absent — return properly-shaped NaN Series
-    logger.debug("Column '%s' absent from API response; using NaN Series", col_name)
+    logger.debug("Column '%s' absent from API response — using NaN Series", col_name)
     return pd.Series(
         [np.nan] * len(raw_df),
         index=range(len(raw_df)),
@@ -98,24 +92,21 @@ def _exp_from_text(text: str):
 
 
 def _state_city(area) -> tuple:
-    """
-    FIX for location parsing.
-
-    Adzuna India returns location.area = ["India"]  (single element).
-    Old code assumed len >= 2 and crashed/returned wrong values.
-
-    Handles:
-        ["India"]                  → (None, "India")
-        ["India", "Karnataka"]     → ("Karnataka", "Karnataka")
-        ["India", "Karnataka", "Bangalore"] → ("Karnataka", "Bangalore")
-    """
     if not isinstance(area, list) or len(area) == 0:
         return None, None
+
     if len(area) == 1:
-        return None, area[0]          # only country — no city/state breakdown
+        country = area[0]
+
+        if country.lower() == "india":
+            return None, "Unknown"
+
+        return None, country
+
     if len(area) == 2:
-        return area[1], area[1]       # state only
-    return area[1], area[-1]          # state + city (normal case)
+        return area[1], area[1]
+
+    return area[1], area[-1]
 
 
 def _job_type(row) -> str:
@@ -130,95 +121,98 @@ def _job_type(row) -> str:
 
 def standardize_adzuna_data(raw: pd.DataFrame) -> pd.DataFrame:
     """
-    Map a raw (json_normalized) Adzuna results DataFrame onto the app's
-    canonical column schema.  All fixes for the crash and the location
-    parsing issue are applied here.
+    Maps raw Adzuna response → canonical schema, then enriches salaries.
+    Returns a DataFrame ready for clean_data() → analysis pipeline.
     """
     if raw.empty:
-        logger.warning("standardize_adzuna_data called with empty DataFrame")
+        logger.warning("standardize_adzuna_data: empty input")
         return pd.DataFrame()
 
     logger.info("Standardizing %d rows from Adzuna API", len(raw))
 
-    out = pd.DataFrame()
+    out       = pd.DataFrame()
     out.index = range(len(raw))
 
-    # ── Core text fields ───────────────────────────────────────────────────
-    out[COL_TITLE]       = raw.get("title",
-                           pd.Series(["Unspecified Role"] * len(raw))).fillna("Unspecified Role").values
-    out[COL_COMPANY]     = raw.get("company.display_name",
-                           pd.Series(["Unknown Company"] * len(raw))).fillna("Unknown Company").values
-    out[COL_DESCRIPTION] = raw.get("description",
-                           pd.Series([""] * len(raw))).fillna("").values
-    out[COL_INDUSTRY]    = raw.get("category.label",
-                           pd.Series(["Other"] * len(raw))).fillna("Other").values
+    # ── Text fields ────────────────────────────────────────────────────────
+    def _col(name, default):
+        val = raw.get(name)
+        if val is None:
+            return pd.Series([default] * len(raw))
+        return pd.Series(val.values).fillna(default)
+
+    out[COL_TITLE]       = _col("title",                "Unspecified Role")
+    out[COL_COMPANY]     = _col("company.display_name", "Unknown Company")
+    out[COL_DESCRIPTION] = _col("description",          "")
+    out[COL_INDUSTRY]    = _col("category.label",       "Other")
     out[COL_DATE_POSTED] = pd.to_datetime(
-        raw.get("created"), errors="coerce", utc=True
+        raw["created"] if "created" in raw.columns else pd.Series([pd.NaT] * len(raw)),
+        errors="coerce", utc=True,
     )
 
-    # ── Salary (FIX: use _safe_salary_col to avoid scalar/concat crash) ───
-    sal_min = _safe_salary_col(raw, "salary_min")   # always a Series now
-    sal_max = _safe_salary_col(raw, "salary_max")   # always a Series now
-
-    # Both are guaranteed Series here — pd.concat is safe
+    # ── Salary: FIX 1 applied here ─────────────────────────────────────────
+    # NOTE: For Adzuna India, salary_min and salary_max are almost always
+    # absent (salary_is_predicted = 0). After this block, COL_SALARY will
+    # be NaN for all rows. enrich_salary() below fills those NaNs.
+    sal_min         = _safe_salary_col(raw, "salary_min")
+    sal_max         = _safe_salary_col(raw, "salary_max")
     salary_df       = pd.concat([sal_min, sal_max], axis=1)
     out[COL_SALARY] = salary_df.mean(axis=1, skipna=True)
 
-    logger.debug(
-        "Salary coverage: %d/%d rows have a value",
-        out[COL_SALARY].notna().sum(), len(out)
+    logger.info(
+        "Raw salary coverage from API: %d/%d rows (%.0f%%)",
+        out[COL_SALARY].notna().sum(), len(out),
+        out[COL_SALARY].notna().mean() * 100
     )
 
-    # ── Location (FIX: handle single-element area list) ───────────────────
+    # ── Location: FIX 2 applied here ──────────────────────────────────────
     if "location.area" in raw.columns:
-        pairs              = raw["location.area"].apply(_state_city)
-        out[COL_STATE]     = [p[0] for p in pairs]
-        cities_from_area   = [p[1] for p in pairs]
-        fallback_display   = (
+        pairs            = raw["location.area"].apply(_state_city)
+        out[COL_STATE]   = [p[0] for p in pairs]
+        cities_from_area = [p[1] for p in pairs]
+        fallback         = (
             raw["location.display_name"]
             if "location.display_name" in raw.columns
             else pd.Series(["Unknown"] * len(raw))
         )
-        out[COL_LOCATION]  = [
-            cities_from_area[i] or str(fallback_display.iloc[i])
+        out[COL_LOCATION] = [
+            cities_from_area[i] or str(fallback.iloc[i])
             for i in range(len(cities_from_area))
         ]
     else:
-        out[COL_LOCATION]  = (
-            raw.get("location.display_name",
-            pd.Series(["Unknown"] * len(raw))).fillna("Unknown").values
-        )
-        out[COL_STATE]     = None
+        out[COL_LOCATION] = _col("location.display_name", "Unknown")
+        out[COL_STATE]    = None
 
-    # ── Real lat/lon when Adzuna provides it ──────────────────────────────
+    # ── Lat / Lon (present in some Adzuna regions) ─────────────────────────
     if "latitude"  in raw.columns:
         out[COL_LAT] = pd.to_numeric(raw["latitude"],  errors="coerce").values
     if "longitude" in raw.columns:
         out[COL_LON] = pd.to_numeric(raw["longitude"], errors="coerce").values
 
-    # ── Job type ──────────────────────────────────────────────────────────
+    # ── Job type ───────────────────────────────────────────────────────────
     out[COL_JOB_TYPE] = raw.apply(_job_type, axis=1).values
 
-    # ── Experience (extracted from description text) ───────────────────────
-    exp_series      = out[COL_DESCRIPTION].apply(_exp_from_text)
-    fallback_exp    = int(exp_series.dropna().median()) if not exp_series.dropna().empty else 2
-    out[COL_EXPERIENCE]         = exp_series.fillna(fallback_exp)
+    # ── Experience from description text ───────────────────────────────────
+    exp_series              = out[COL_DESCRIPTION].apply(_exp_from_text)
+    fallback_exp            = int(exp_series.dropna().median()) if not exp_series.dropna().empty else 2
+    out[COL_EXPERIENCE]     = exp_series.fillna(fallback_exp)
     out["Experience_Estimated"] = exp_series.isna()
 
-    # ── Skills filled downstream by data/skill_extractor.py ───────────────
+    # Skills filled downstream by skill_extractor.py
     out[COL_SKILLS] = ""
 
+    # ── FIX 3: Enrich missing salaries from sample dataset lookup ──────────
+    # This is the core fix for "salary shows Not Disclosed with API data".
+    # enrich_salary() fuzzy-matches job titles against the bundled CSV and
+    # assigns realistic estimated salaries. Salary_Estimated=True flags them.
+    from data.salary_estimator import enrich_salary   # local import avoids circular
+    out = enrich_salary(out)
+
     logger.info(
-        "Standardized: %d rows, salary coverage %.0f%%, location='%s' (sample)",
-        len(out),
+        "Final salary coverage: %d/%d rows (%.0f%%) — %d estimated, %d from API",
+        out[COL_SALARY].notna().sum(), len(out),
         out[COL_SALARY].notna().mean() * 100,
-        out[COL_LOCATION].iloc[0] if len(out) else "—",
+        out.get("Salary_Estimated", pd.Series([])).sum(),
+        out[COL_SALARY].notna().sum() - out.get("Salary_Estimated", pd.Series([])).sum(),
     )
-
-    print("Salary count:", out[COL_SALARY].notna().sum())
-    print("Salary median:", out[COL_SALARY].median())
-    print("Salary sample:")
-    print(out[COL_SALARY].head(20))
-
 
     return out

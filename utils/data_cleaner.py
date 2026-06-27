@@ -39,6 +39,7 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     # --------------------------------------------------
     # Convert numeric/date columns
     # --------------------------------------------------
+
     if COL_SALARY in df.columns:
         df[COL_SALARY] = pd.to_numeric(
             df[COL_SALARY],
