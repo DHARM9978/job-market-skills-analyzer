@@ -8,7 +8,7 @@ from components.page_container import page_container
 from components.chart_cards import chart_card
 from analysis.location_analysis import jobs_by_location, jobs_by_state, top_industry_per_location
 from visualizations.location_charts import listings_by_location_bar, avg_salary_by_location_bar, listings_by_state_bar, location_industry_treemap
-from visualizations.maps import jobs_map
+
 
 init_session_state()
 render_sidebar_branding()
@@ -19,10 +19,6 @@ with page_container("Location Analysis","Where the jobs are concentrated — cit
     if filtered.empty:
         st.warning("No listings match the current filters.")
     else:
-        with chart_card("Interactive City Map","🗺️","Bubble size = listings, colour = average salary"):
-            fig = jobs_map(filtered)
-            if fig: st.plotly_chart(fig, use_container_width=True, config={"displayModeBar":False})
-            else:   st.info("No mappable location data for the current filters.")
         c1,c2 = st.columns(2)
         with c1:
             with chart_card("Listings by City","🏙️"):
